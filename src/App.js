@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+    
+} from "react-router-dom";
+
+
+import Inicio from "./views/Inicio";
+import Contenidos from "./views/Contenidos";
+import Categorias from "./views/Categorias";
+import Entretenimiento from "./views/Entretenimiento";
+import Regiones from "./views/Regiones";
+import Contacto from "./views/Contacto";
+import NotFound from "./views/NotFound";
+import Nav from "./components/MainMenu/Nav";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <Router>
+
+      <Nav/>
+      
+        <Routes>
+          <Route path="/" element={<Inicio/>}/>
+          <Route path="/contenidos" element={<Contenidos/>}/>
+          <Route path="/categorias" element={<Categorias/>}/>
+          <Route path="/entretenimiento" element={<Entretenimiento/>}/>
+          <Route path="/regiones" element={<Regiones/>}/>
+          <Route path="/contacto" element={<Contacto/>}/>
+          <Route path="*" element={<NotFound/>}/>
+        </Routes>
+      </Router>  
+    
   );
 }
 
