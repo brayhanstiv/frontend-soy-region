@@ -1,4 +1,4 @@
-const Categorias = () =>{
+const Category = () =>{
     return(
         <div>
             <h1>Categorias</h1>
@@ -6,4 +6,4 @@ const Categorias = () =>{
     )
 }
 
-export  default Categorias
+export  default Category
