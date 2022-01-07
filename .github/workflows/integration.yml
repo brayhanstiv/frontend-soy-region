@@ -1,12 +1,12 @@
 name: Continuous Integration
 
 on:
-  pull_request:
+  push:
     branches:
       - master
 
 jobs:
-  merge_pull_request:
+  deploy:
     runs-on: self-hosted
     steps:
       - name: Checkout main branch
