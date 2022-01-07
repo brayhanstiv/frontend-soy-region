@@ -22,3 +22,6 @@ jobs:
 
       - name: Build application
         run: npm run build
+
+      - name: Move Deploy
+        run: sh deploy.sh
