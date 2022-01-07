@@ -9,23 +9,23 @@ const Nav =()=>{
                     <NavLink to="/">Inicio</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contenidos">Contenidos</NavLink>
+                    <NavLink to="/content">Contenidos</NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/categorias">Contato</NavLink>
+                    <NavLink to="/category">Categorias</NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/entretenimiento">Entretenimiento</NavLink>
+                    <NavLink to="/region">Regional</NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/regiones">Regiones</NavLink>
+                    <NavLink to="/blog">Blog</NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/contacto">Contato</NavLink>
+                    <NavLink to="/contact">Contato</NavLink>
                 </li>
                
                 

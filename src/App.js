@@ -7,13 +7,13 @@ import {
 } from "react-router-dom";
 
 
-import Inicio from "./views/Inicio";
-import Contenidos from "./views/Contenidos";
-import Categorias from "./views/Categorias";
-import Entretenimiento from "./views/Entretenimiento";
-import Regiones from "./views/Regiones";
-import Contacto from "./views/Contacto";
-import NotFound from "./views/NotFound";
+import Home from "./views/HomeView/index";
+import Content from "./views/ContentView/index";
+import Region from "./views/RegionView/index";
+import Blog from "./views/BlogView/index";
+import Contact from "./views/ContactView/index";
+import Category from "./views/CategoryView/index";
+import NotFound from "./views/NotFoundView/index";
 import Nav from "./components/MainMenu/Nav";
 
 
@@ -25,12 +25,12 @@ function App() {
       <Nav/>
       
         <Routes>
-          <Route path="/" element={<Inicio/>}/>
-          <Route path="/contenidos" element={<Contenidos/>}/>
-          <Route path="/categorias" element={<Categorias/>}/>
-          <Route path="/entretenimiento" element={<Entretenimiento/>}/>
-          <Route path="/regiones" element={<Regiones/>}/>
-          <Route path="/contacto" element={<Contacto/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/content" element={<Content/>}/>
+          <Route path="/category" element={<Category/>}/>
+          <Route path="/region" element={<Region/>}/>
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/contact" element={<Contact/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Routes>
       </Router>  
