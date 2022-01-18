@@ -5,13 +5,15 @@ import {Link, NavLink} from "react-router-dom";
 import SearchModal from "../SearchModal";
 import SidebarMenu from "../SidebarMenu";
 
+import {menus, menusDark} from "../../common/data/menus";
+
 
 
 const MainMenu = ({className, dark}) => {
     const [searchShow, setSearchShow] = useState(false);
     const [sideShow, setSideShow] = useState(false);
 
-   // const arr = dark ? menusDark : menus;
+    const arr = dark ? menusDark : menus;
     return (
         <Fragment>
             <div className={`main-menu ${className ? className : ''}`} id="header">
