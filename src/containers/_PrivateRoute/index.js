@@ -1,6 +1,8 @@
+// Packages
 import React, {Fragment} from 'react';
 import {Route} from 'react-router-dom';
 
+// Components
 import TopBar from "../../components/TopBar";
 import LogoArea from "../../components/LogoArea";
 import MainMenu from "../../components/MainMenu";
@@ -8,9 +10,8 @@ import FooterArea from "../../components/FooterArea";
 import TopBarTwo from "../../components/TopBarTwo";
 import LogoAreaTwo from "../../components/LogoAreaTwo";
 import MainMenuTwo from "../../components/MainMenuTwo";
-import FooterAreaTwo from "../../components/FooterAreaTwo";
 import LogoAreaThree from "../../components/LogoAreaThree";
-import FooterAreaThree from "../../components/FooterAreaThree";
+
 
 const PrivateRoute = (props) => {
     const {component: Component, ...rest} = props;
@@ -55,13 +56,7 @@ const PrivateRoute = (props) => {
                 )}
             />
 
-            {props.home_style === 2 ?
-                <FooterAreaTwo/>
-                : props.home_style === 3 ?
-                    <FooterAreaThree/>
-                    : props.home_style === 4 ?
-                        <FooterArea className="dark-2"/>
-                        : <FooterArea className="primay_bg"/>}
+            { <FooterArea className="primay_bg"/>}
         </div>
     )
 };

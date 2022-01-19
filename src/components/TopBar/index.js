@@ -29,11 +29,11 @@ const TopBar = ({className, dark}) => {
                 <div className="row">
                     <div className="col-md-8 align-self-center">
                         <div className={`trancarousel_area ${dark ? 'white' : ''}`}>
-                            <p className="trand">Ultimas Noticias</p>
+                            <p className="trand">ÚLTIMAS NOTICIAS</p>
                             <div className="nav_style1">
                                 <Swiper getSwiper={setSwiper} className="trancarousel" {...params}>
                                     <div className="trancarousel_item">
-                                        <p><Link to="/">TLas 10 mejores películas del 2022 hasta ahora: grandes películas para ver
+                                        <p><Link to="/">Las 10 mejores películas del 2022 hasta ahora: grandes películas para ver
                                             </Link>
                                         </p>
                                     </div>

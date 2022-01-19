@@ -1,9 +1,12 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 
+
+
+
 import PrivateRoute from '../_PrivateRoute';
 import HomePage from "../HomePage";
-import HomePageTwo from "../HomePageTwo";
+// import HomePageTwo from "../HomePageTwo";
 import BusinessPage from "../BusinessPage";
 import EntertainmentPage from "../EntertainmentPage";
 import FeaturePage from "../FeaturePage";
@@ -23,6 +26,8 @@ import AudioPostOnePage from "../AudioPostOnePage";
 import AudioPostTwoPage from "../AudioPostTwoPage";
 import AudioPostThreePage from "../AudioPostThreePage";
 import PostOneLeftSidebarPage from "../PostOneLeftSidebarPage";
+
+/* 
 import BusinessTwoPage from "../BusinessTwoPage";
 import EntertainmentTwoPage from "../EntertainmentTwoPage";
 import FeatureTwoPage from "../FeatureTwoPage";
@@ -79,7 +84,7 @@ import VideoPostThreeDarkPage from "../VideoPostThreeDarkPage";
 import AudioPostOneDarkPage from "../AudioPostOneDarkPage";
 import AudioPostTwoDarkPage from "../AudioPostTwoDarkPage";
 import AudioPostThreeDarkPage from "../AudioPostThreeDarkPage";
-import PostOneLeftSidebarDarkPage from "../PostOneLeftSidebarDarkPage";
+import PostOneLeftSidebarDarkPage from "../PostOneLeftSidebarDarkPage"; */
 // import PublicRoute from '../_PublicRoute';
 
 const Routes = () => {
@@ -188,7 +193,7 @@ const Routes = () => {
                 component={PostOneLeftSidebarPage}/>
 
             {/*home two routes*/}
-            <PrivateRoute
+          {/*  <PrivateRoute
                 exact
                 home_style={2}
                 parentClass="theme-3 theme3_bg"
@@ -302,8 +307,8 @@ const Routes = () => {
                 parentClass="theme-3"
                 path="/home-two/left_post2"
                 component={PostOneHTwoLeftSidebarPage}/>
-
-            {/*home page three*/}
+          */}
+            {/*home page three
             <PrivateRoute
                 exact
                 home_style={3}
@@ -424,8 +429,8 @@ const Routes = () => {
                 parentClass="theme-4"
                 path="/home-three/left_post2"
                 component={PostOneHThreeLeftSidebarPage}/>
-
-            {/*home dark version*/}
+*/}
+            {/*home dark version
             <PrivateRoute
                 exact
                 home_style={4}
@@ -546,7 +551,7 @@ const Routes = () => {
                 path="/dark/left_post2"
                 parentClass="dark-theme primay_bg"
                 component={PostOneLeftSidebarDarkPage}/>
-
+*/}
             <Route exact component={NotFoundPage}/>
         </Switch>
     );

@@ -1,8 +1,11 @@
+// Packages
 import React, {Fragment} from 'react';
+import {Link} from "react-router-dom";
+
+// Components
 import BreadCrumb from "../../components/BreadCrumb";
 import BusinessNews from "../../components/BusinessNews";
 import FontAwesome from "../../components/uiStyle/FontAwesome";
-import {Link} from "react-router-dom";
 import WidgetTab from "../../components/WidgetTab";
 import WidgetTrendingNews from "../../components/WidgetTrendingNews";
 import NewsLetter from "../../components/NewsLetter";

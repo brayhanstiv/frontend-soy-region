@@ -2,31 +2,7 @@ const menus = [
     {
         id: 1,
         linkText: 'Inicio',
-        child: true,
-        icon: 'angle-down',
-        submenu: [
-            {
-                id: 11,
-                link: '/',
-                linkText: 'Home 1'
-            },
-            {
-                id: 12,
-                link: '/dark',
-                linkText: 'Home Dark'
-            },
-            {
-                id: 13,
-                new: true,
-                link: '/home-two',
-                linkText: 'Home 2'
-            },
-            {
-                id: 14,
-                link: '/home-three',
-                linkText: 'Home 3'
-            },
-        ]
+        link: '/'
     },
     {
         id: 2,
@@ -36,119 +12,58 @@ const menus = [
         submenu: [
             {
                 id: 21,
-                link: '/about',
-                linkText: 'About'
+                link: '/business',
+                linkText: 'Negocios'
             },
             {
                 id: 22,
-                link: '/archive',
-                linkText: 'Archive'
+                link: '/entertainment',
+                linkText: 'Entretenimiento'
             },
             {
                 id: 23,
-                link: '/contact',
-                linkText: 'Contact Us'
+                link: '/features',
+                linkText: 'Política'
             },
             {
                 id: 24,
-                link: '/404',
-                linkText: '404'
+                link: '/sports',
+                linkText: 'Deportes'
+            },
+            {
+                id: 25,
+                link: '/trending',
+                linkText: 'Economía'
             },
         ]
     },
     {
+        
         id: 3,
-        linkText: 'Contenido',
+        linkText: 'Contenidos',
         child: true,
         icon: 'angle-down',
         submenu: [
             {
                 id: 31,
-                child: true,
-                linkText: 'General Posts',
-                third_menu: [
-                    {
-                        id: 311,
-                        link: '/post1',
-                        linkText: 'Post 1',
-                    },
-                    {
-                        id: 312,
-                        link: '/post2',
-                        linkText: 'Post 2',
-                    },
-                    {
-                        id: 313,
-                        link: '/post3',
-                        linkText: 'Post 3',
-                    },
-                ],
+                link: '/',
+                linkText: 'Actualidad'
             },
             {
                 id: 32,
-                child: true,
-                linkText: 'Video Posts',
-                third_menu: [
-                    {
-                        id: 321,
-                        link: '/video_post1',
-                        linkText: 'Video Style 1',
-                    },
-                    {
-                        id: 322,
-                        link: '/video_post2',
-                        linkText: 'Video Style 2',
-                    },
-                    {
-                        id: 323,
-                        link: '/video_post3',
-                        linkText: 'Video Style 3',
-                    },
-                ],
+                link: '/dark',
+                linkText: 'Tema del día'
             },
             {
                 id: 33,
-                child: true,
-                linkText: 'Audio Posts',
-                third_menu: [
-                    {
-                        id: 331,
-                        link: '/audio_post1',
-                        linkText: 'Audio Style 1',
-                    },
-                    {
-                        id: 332,
-                        link: '/audio_post2',
-                        linkText: 'Audio Style 2',
-                    },
-                    {
-                        id: 333,
-                        link: '/audio_post3',
-                        linkText: 'Audio Style 3',
-                    },
-                ],
+                new: true,
+                link: '/home-two',
+                linkText: 'Columnistas'
             },
             {
                 id: 34,
-                child: true,
-                linkText: 'Sidebars',
-                third_menu: [
-                    {
-                        id: 341,
-                        link: '/post1',
-                        linkText: 'Right Sidebar',
-                    },
-                    {
-                        id: 342,
-                        link: '/left_post2',
-                        linkText: 'Left Sidebar',
-                    },
-                    {
-                        id: 343,
-                        link: '/post2',
-                        linkText: 'No Sidebar',
-                    },
-                ],
+                link: '/home-three',
+                linkText: 'Entrevista'
             },
         ]
     },
@@ -160,36 +75,33 @@ const menus = [
         submenu: [
             {
                 id: 41,
-                link: '/business',
-                linkText: 'Business'
+                link: '/about',
+                linkText: 'Bogotá'
             },
             {
                 id: 42,
-                link: '/entertainment',
-                linkText: 'Entertainment'
+                link: '/archive',
+                linkText: 'Medellin'
             },
             {
                 id: 43,
-                link: '/features',
-                linkText: 'Features'
+                link: '/contact',
+                linkText: 'Barranquilla'
             },
             {
                 id: 44,
-                link: '/sports',
-                linkText: 'Sports'
-            },
-            {
-                id: 45,
-                link: '/trending',
-                linkText: 'Trending'
+                link: '/404',
+                linkText: 'Huila'
             },
         ]
     },
+  
+   
     {
         id: 5,
         linkText: 'Blog',
-        link: '/world'
-    },    
+        link: '/contact'
+    },  
     {
         id: 6,
         linkText: 'Contacto',
