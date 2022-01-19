@@ -8,9 +8,9 @@ import NewsLetter from "../../components/NewsLetter";
 import FollowUs from "../../components/FollowUs";
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
-import sports41 from '../../doc/img/sports/sports41.jpg';
-import sportsbig1 from '../../doc/img/sports/sportsbig1.jpg';
+import banner2 from "../../assets/img/bg/sidebar-1.png";
+import sports41 from '../../assets/img/sports/sports41.jpg';
+import sportsbig1 from '../../assets/img/sports/sportsbig1.jpg';
 import BannerSection from "../../components/BannerSection";
 
 const sports = [

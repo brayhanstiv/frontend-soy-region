@@ -5,7 +5,7 @@ import FooterMoreNews from "../FooterMoreNews";
 import TwitterFeed from "../TwitterFeed";
 import FontAwesome from "../uiStyle/FontAwesome";
 
-import flogo from '../../doc/img/logo/footer_logo.png';
+import flogo from '../../assets/img/logo/footer_logo.png';
 import FooterNewsCategories from "../FooterNewsCategories";
 
 const FooterArea = ({className}) => {

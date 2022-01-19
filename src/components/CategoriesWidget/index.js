@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import union from '../../doc/img/icon/union.png';
-import category1 from '../../doc/img/categories/category1.jpg';
-import category2 from '../../doc/img/categories/category2.jpg';
-import category3 from '../../doc/img/categories/category3.jpg';
-import category4 from '../../doc/img/categories/category4.jpg';
-import category5 from '../../doc/img/categories/category5.jpg';
-import category6 from '../../doc/img/categories/category6.jpg';
+import union from '../../assets/img/icon/union.png';
+import category1 from '../../assets/img/categories/category1.jpg';
+import category2 from '../../assets/img/categories/category2.jpg';
+import category3 from '../../assets/img/categories/category3.jpg';
+import category4 from '../../assets/img/categories/category4.jpg';
+import category5 from '../../assets/img/categories/category5.jpg';
+import category6 from '../../assets/img/categories/category6.jpg';
 
 const categories = [
     {

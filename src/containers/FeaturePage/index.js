@@ -10,7 +10,7 @@ import FeatureNewsAll from "../../components/FeatureNewsAll";
 import BannerSection from "../../components/BannerSection";
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
+import banner2 from "../../assets/img/bg/sidebar-1.png";
 
 const FeaturePage = () => {
     return (

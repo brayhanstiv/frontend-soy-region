@@ -5,8 +5,8 @@ import FollowUs from "../../components/FollowUs";
 import SimpleReactValidator from 'simple-react-validator';
 import {toast} from "react-toastify";
 
-import scrollIcon from '../../doc/img/icon/scroll.png';
-import black_phone from '../../doc/img/icon/black_phone.png';
+import scrollIcon from '../../assets/img/icon/scroll.png';
+import black_phone from '../../assets/img/icon/black_phone.png';
 import BannerSectionThree from "../../components/BannerSectionThree";
 import MainMenuThree from "../../components/MainMenuThree";
 

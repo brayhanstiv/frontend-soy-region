@@ -7,10 +7,10 @@ import FontAwesome from "../../components/uiStyle/FontAwesome";
 import BannerSection from "../../components/BannerSection";
 import WidgetTrendingNewsTwo from "../../components/WidgetTrendingNewsTwo";
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
-import feature21 from '../../doc/img/feature/feature21.jpg';
-import feature22 from '../../doc/img/feature/feature22.jpg';
-import feature23 from '../../doc/img/feature/feature23.jpg';
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
+import feature21 from '../../assets/img/feature/feature21.jpg';
+import feature22 from '../../assets/img/feature/feature22.jpg';
+import feature23 from '../../assets/img/feature/feature23.jpg';
 
 const feature_news = [
     {

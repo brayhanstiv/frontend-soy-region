@@ -3,10 +3,10 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 
 // images
-import trendbig1 from '../../doc/img/trending/trendbig1.jpg';
-import transm4 from '../../doc/img/trending/transm4.jpg';
-import transm5 from '../../doc/img/trending/transm5.jpg';
-import transm6 from '../../doc/img/trending/transm6.jpg';
+import trendbig1 from '../../assets/img/trending/trendbig1.jpg';
+import transm4 from '../../assets/img/trending/transm4.jpg';
+import transm5 from '../../assets/img/trending/transm5.jpg';
+import transm6 from '../../assets/img/trending/transm6.jpg';
 
 const posts = [
     {

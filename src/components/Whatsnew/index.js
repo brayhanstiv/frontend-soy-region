@@ -5,11 +5,11 @@ import Swiper from 'react-id-swiper';
 import {mostViewSort} from "../../utils/commonFunctions";
 
 // images
-import whats21 from '../../doc/img/whats/whats21.jpg';
-import whats22 from '../../doc/img/whats/whats22.jpg';
-import whats23 from '../../doc/img/whats/whats23.jpg';
-import whats24 from '../../doc/img/whats/whats24.jpg';
-import whats25 from '../../doc/img/whats/whats25.jpg';
+import whats21 from '../../assets/img/whats/whats21.jpg';
+import whats22 from '../../assets/img/whats/whats22.jpg';
+import whats23 from '../../assets/img/whats/whats23.jpg';
+import whats24 from '../../assets/img/whats/whats24.jpg';
+import whats25 from '../../assets/img/whats/whats25.jpg';
 
 const posts = [
     {

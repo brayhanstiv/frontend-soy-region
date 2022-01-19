@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import logo from '../../doc/img/logo/logo.png';
-import tempIcon from "../../doc/img/icon/temp.png";
+import logo from '../../assets/img/logo/logo.png';
+import tempIcon from "../../assets/img/icon/temp.png";
 
 const LogoAreaTwo = () => {
     const [search, setSearch] = useState('');

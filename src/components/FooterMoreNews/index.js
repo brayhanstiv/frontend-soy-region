@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import mobile from '../../doc/img/icon/mobile.png';
-import speaker from '../../doc/img/icon/speacker.png';
-import envelope from '../../doc/img/icon/evelope.png';
+import mobile from '../../assets/img/icon/mobile.png';
+import speaker from '../../assets/img/icon/speacker.png';
+import envelope from '../../assets/img/icon/evelope.png';
 
 const news = [
     {

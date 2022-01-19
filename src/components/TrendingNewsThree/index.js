@@ -2,13 +2,13 @@ import React, {Fragment} from 'react';
 import {Link} from "react-router-dom";
 import FontAwesome from "../../components/uiStyle/FontAwesome";
 
-import trend31 from '../../doc/img/trending/trend31.jpg';
-import trend32 from '../../doc/img/trending/trend32.jpg';
-import trend33 from '../../doc/img/trending/trend33.jpg';
-import trend34 from '../../doc/img/trending/trend34.jpg';
-import trend35 from '../../doc/img/trending/trend35.jpg';
-import trend36 from '../../doc/img/trending/trend36.jpg';
-import trend37 from '../../doc/img/blog/90652.jpg';
+import trend31 from '../../assets/img/trending/trend31.jpg';
+import trend32 from '../../assets/img/trending/trend32.jpg';
+import trend33 from '../../assets/img/trending/trend33.jpg';
+import trend34 from '../../assets/img/trending/trend34.jpg';
+import trend35 from '../../assets/img/trending/trend35.jpg';
+import trend36 from '../../assets/img/trending/trend36.jpg';
+import trend37 from '../../assets/img/blog/90652.jpg';
 
 const trendingNews = [
     {

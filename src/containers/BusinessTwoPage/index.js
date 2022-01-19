@@ -7,7 +7,7 @@ import FontAwesome from "../../components/uiStyle/FontAwesome";
 import BannerSection from "../../components/BannerSection";
 import WidgetTrendingNewsTwo from "../../components/WidgetTrendingNewsTwo";
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
 import BusinessAllNewsTwo from "../../components/BusinessAllNewsTwo";
 
 const BusinessTwoPage = () => {

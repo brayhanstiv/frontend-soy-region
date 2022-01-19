@@ -1,9 +1,9 @@
 import React, {Fragment, useState} from 'react';
 import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
-import feature21 from '../../doc/img/feature/feature21.jpg';
-import feature22 from '../../doc/img/feature/feature22.jpg';
-import feature23 from '../../doc/img/feature/feature23.jpg';
+import feature21 from '../../assets/img/feature/feature21.jpg';
+import feature22 from '../../assets/img/feature/feature22.jpg';
+import feature23 from '../../assets/img/feature/feature23.jpg';
 import {Link} from "react-router-dom";
 
 const feature_news = [

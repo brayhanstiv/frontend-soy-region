@@ -1,11 +1,11 @@
 import React, {Fragment} from 'react';
 
-import sports21 from '../../doc/img/sports/sports21.jpg';
-import sports22 from '../../doc/img/sports/sports22.jpg';
-import sports23 from '../../doc/img/sports/sports23.jpg';
-import sports24 from '../../doc/img/sports/sports24.jpg';
-import sports25 from '../../doc/img/sports/sports25.jpg';
-import sports26 from '../../doc/img/sports/sports26.jpg';
+import sports21 from '../../assets/img/sports/sports21.jpg';
+import sports22 from '../../assets/img/sports/sports22.jpg';
+import sports23 from '../../assets/img/sports/sports23.jpg';
+import sports24 from '../../assets/img/sports/sports24.jpg';
+import sports25 from '../../assets/img/sports/sports25.jpg';
+import sports26 from '../../assets/img/sports/sports26.jpg';
 import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import TrendingCarousel from "../TrendingCarousel";
 import FontAwesome from "../uiStyle/FontAwesome";
 
-import big_img from '../../doc/img/trending/trend22.jpg';
+import big_img from '../../assets/img/trending/trend22.jpg';
 
 const TrendingNewsTwo = () => {
     return (

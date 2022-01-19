@@ -3,11 +3,11 @@ import {TabContent, TabPane, Nav, NavItem, Fade} from 'reactstrap';
 import classnames from 'classnames';
 import {Link} from "react-router-dom";
 
-import thumb1 from '../../doc/img/header/widget/tab1.jpg';
-import thumb2 from '../../doc/img/header/widget/tab2.jpg';
-import thumb3 from '../../doc/img/header/widget/tab3.jpg';
-import thumb4 from '../../doc/img/header/widget/tab4.jpg';
-import thumb5 from '../../doc/img/header/widget/tab5.jpg';
+import thumb1 from '../../assets/img/header/widget/tab1.jpg';
+import thumb2 from '../../assets/img/header/widget/tab2.jpg';
+import thumb3 from '../../assets/img/header/widget/tab3.jpg';
+import thumb4 from '../../assets/img/header/widget/tab4.jpg';
+import thumb5 from '../../assets/img/header/widget/tab5.jpg';
 
 const data = [
     {

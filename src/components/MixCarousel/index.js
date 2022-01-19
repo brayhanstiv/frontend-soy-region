@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 import Swiper from 'react-id-swiper';
 import ModalVideo from 'react-modal-video'
 
-import black_white1 from '../../doc/img/bg/black_white1.jpg';
-import black_white2 from '../../doc/img/bg/black_white2.jpg';
+import black_white1 from '../../assets/img/bg/black_white1.jpg';
+import black_white2 from '../../assets/img/bg/black_white2.jpg';
 
 const mixArray = [
     {

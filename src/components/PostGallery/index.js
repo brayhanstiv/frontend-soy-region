@@ -7,15 +7,15 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import ModalVideo from 'react-modal-video'
 
 // images
-import gsil1 from '../../doc/img/blog/post_gsi1.jpg';
-import gsil2 from '../../doc/img/blog/post_gsi2.jpg';
-import gsil3 from '../../doc/img/blog/post_gsi3.jpg';
-import gsil4 from '../../doc/img/blog/post_gsi4.jpg';
-import gsil5 from '../../doc/img/blog/post_gsi5.jpg';
-import gsil6 from '../../doc/img/blog/post_gsi6.jpg';
-import gsil7 from '../../doc/img/blog/post_gsi7.jpg';
-import sliderImg1 from '../../doc/img/header/sider-top.jpg';
-import sliderImg2 from '../../doc/img/header/sider-top2.jpg';
+import gsil1 from '../../assets/img/blog/post_gsi1.jpg';
+import gsil2 from '../../assets/img/blog/post_gsi2.jpg';
+import gsil3 from '../../assets/img/blog/post_gsi3.jpg';
+import gsil4 from '../../assets/img/blog/post_gsi4.jpg';
+import gsil5 from '../../assets/img/blog/post_gsi5.jpg';
+import gsil6 from '../../assets/img/blog/post_gsi6.jpg';
+import gsil7 from '../../assets/img/blog/post_gsi7.jpg';
+import sliderImg1 from '../../assets/img/header/sider-top.jpg';
+import sliderImg2 from '../../assets/img/header/sider-top2.jpg';
 
 import './style.scss';
 

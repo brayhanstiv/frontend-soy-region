@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import sportsbig1 from "../../doc/img/sports/sportsbig1.jpg";
+import sportsbig1 from "../../assets/img/sports/sportsbig1.jpg";
 import SportsCarousel from "../SportsCarousel";
 import FontAwesome from "../uiStyle/FontAwesome";
 

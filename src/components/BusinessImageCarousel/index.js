@@ -3,12 +3,12 @@ import {Link} from "react-router-dom";
 import Swiper from 'react-id-swiper';
 import FontAwesome from "../uiStyle/FontAwesome";
 
-import pop51 from '../../doc/img/popular/pop51.jpg';
-import pop52 from '../../doc/img/popular/pop52.jpg';
-import pop53 from '../../doc/img/popular/pop53.jpg';
-import pop54 from '../../doc/img/popular/pop54.jpg';
-import pop56 from '../../doc/img/popular/pop56.jpg';
-import gallery42 from '../../doc/img/gallary/gallery42.jpg';
+import pop51 from '../../assets/img/popular/pop51.jpg';
+import pop52 from '../../assets/img/popular/pop52.jpg';
+import pop53 from '../../assets/img/popular/pop53.jpg';
+import pop54 from '../../assets/img/popular/pop54.jpg';
+import pop56 from '../../assets/img/popular/pop56.jpg';
+import gallery42 from '../../assets/img/gallary/gallery42.jpg';
 
 const populerPosts = [
     {

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import logo from '../../doc/img/logo/logo.png';
-import logoDark from '../../doc/img/logo/footer_logo.png';
-import tp_banner from '../../doc/img/bg/banner1.png';
+import logo from '../../assets/img/logo/soy_region_logo.png';
+import logoDark from '../../assets/img/logo/footer_logo.png';
+import tp_banner from '../../assets/img/bg/banner_sr.png';
 
 const LogoArea = ({className, dark}) => {
     return (

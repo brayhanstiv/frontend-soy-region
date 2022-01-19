@@ -9,11 +9,11 @@ import CategoryFour from "../../components/CategoryFour";
 import WidgetFinanceTwo from "../../components/WidgetFinanceTwo";
 
 // images
-import erroImg from '../../doc/img/bg/404.png';
-import banner4 from "../../doc/img/bg/banner4.png";
-import video32 from "../../doc/img/blog/video32.jpg";
-import calendarImg from '../../doc/img/icon/calendar.png';
-import finance41 from "../../doc/img/finance/finance41.jpg";
+import erroImg from '../../assets/img/bg/404.png';
+import banner4 from "../../assets/img/bg/banner4.png";
+import video32 from "../../assets/img/blog/video32.jpg";
+import calendarImg from '../../assets/img/icon/calendar.png';
+import finance41 from "../../assets/img/finance/finance41.jpg";
 
 const news = [
     {

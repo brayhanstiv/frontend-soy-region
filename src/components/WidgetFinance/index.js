@@ -1,8 +1,8 @@
 import React from 'react';
-import finance21 from '../../doc/img/finance/finance21.jpg';
-import finance22 from '../../doc/img/finance/finance22.jpg';
-import finance23 from '../../doc/img/finance/finance23.jpg';
-import finance24 from '../../doc/img/finance/finance24.jpg';
+import finance21 from '../../assets/img/finance/finance21.jpg';
+import finance22 from '../../assets/img/finance/finance22.jpg';
+import finance23 from '../../assets/img/finance/finance23.jpg';
+import finance24 from '../../assets/img/finance/finance24.jpg';
 import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 

@@ -9,15 +9,15 @@ import FontAwesome from "../../components/uiStyle/FontAwesome";
 import CategoryFour from "../../components/CategoryFour";
 import PostOnePagination from "../../components/PostOnePagination";
 
-import banner4 from '../../doc/img/bg/banner4.png';
-import finance41 from "../../doc/img/finance/finance41.jpg";
-import single_post1 from "../../doc/img/blog/single_post1.jpg";
-import author2 from "../../doc/img/author/author2.png";
-import smail1 from "../../doc/img/blog/smail1.jpg";
-import big1 from "../../doc/img/blog/big1.jpg";
-import quote_1 from "../../doc/img/blog/quote_1.jpg";
-import quote from "../../doc/img/icon/q4.png";
-import big2 from "../../doc/img/blog/big2.jpg";
+import banner4 from '../../assets/img/bg/banner4.png';
+import finance41 from "../../assets/img/finance/finance41.jpg";
+import single_post1 from "../../assets/img/blog/single_post1.jpg";
+import author2 from "../../assets/img/author/author2.png";
+import smail1 from "../../assets/img/blog/smail1.jpg";
+import big1 from "../../assets/img/blog/big1.jpg";
+import quote_1 from "../../assets/img/blog/quote_1.jpg";
+import quote from "../../assets/img/icon/q4.png";
+import big2 from "../../assets/img/blog/big2.jpg";
 import OurBlogSectionTwo from "../../components/OurBlogSectionTwo";
 import BlogComment from "../../components/BlogComment";
 

@@ -9,11 +9,11 @@ import BlogComment from "../../components/BlogComment";
 import WidgetTab from "../../components/WidgetTab";
 
 // images
-import single_post1 from "../../doc/img/blog/single_post1.jpg";
-import author2 from "../../doc/img/author/author2.png";
-import smail1 from "../../doc/img/blog/smail1.jpg";
-import big1 from "../../doc/img/blog/big1.jpg";
-import banner1 from "../../doc/img/bg/banner1.png";
+import single_post1 from "../../assets/img/blog/single_post1.jpg";
+import author2 from "../../assets/img/author/author2.png";
+import smail1 from "../../assets/img/blog/smail1.jpg";
+import big1 from "../../assets/img/blog/big1.jpg";
+import banner1 from "../../assets/img/bg/banner1.png";
 
 const PostTwoHTwoPage = () => {
     const [vModal, setvModal] = useState(false);

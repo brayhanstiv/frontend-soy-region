@@ -12,9 +12,9 @@ import WidgetTrendingNewsThree from "../../components/WidgetTrendingNewsThree";
 
 // images
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
-import author1 from '../../doc/img/author/author1.png';
-import video32 from '../../doc/img/blog/video32.jpg';
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
+import author1 from '../../assets/img/author/author1.png';
+import video32 from '../../assets/img/blog/video32.jpg';
 
 const news = [
     {

@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react';
 import {Link} from "react-router-dom";
 import FontAwesome from "../uiStyle/FontAwesome";
-import big_img from '../../doc/img/header/sider-top3.jpg';
-import col26 from '../../doc/img/header/widget/col26.jpg';
-import col21 from '../../doc/img/header/widget/col21.jpg';
-import col22 from '../../doc/img/header/widget/col22.jpg';
-import col23 from '../../doc/img/header/widget/col23.jpg';
-import col24 from '../../doc/img/header/widget/col24.jpg';
-import col25 from '../../doc/img/header/widget/col25.jpg';
+import big_img from '../../assets/img/header/sider-top3.jpg';
+import col26 from '../../assets/img/header/widget/col26.jpg';
+import col21 from '../../assets/img/header/widget/col21.jpg';
+import col22 from '../../assets/img/header/widget/col22.jpg';
+import col23 from '../../assets/img/header/widget/col23.jpg';
+import col24 from '../../assets/img/header/widget/col24.jpg';
+import col25 from '../../assets/img/header/widget/col25.jpg';
 
 const posts = [
     {

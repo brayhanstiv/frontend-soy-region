@@ -1,5 +1,5 @@
 import React from 'react';
-import trend22 from '../../doc/img/trending/trend22.jpg';
+import trend22 from '../../assets/img/trending/trend22.jpg';
 import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 

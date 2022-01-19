@@ -7,8 +7,8 @@ import FontAwesome from "../../components/uiStyle/FontAwesome";
 import BannerSection from "../../components/BannerSection";
 import WidgetTrendingNewsTwo from "../../components/WidgetTrendingNewsTwo";
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
-import video21 from '../../doc/img/video/video21.jpg';
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
+import video21 from '../../assets/img/video/video21.jpg';
 
 const sports_news = [
     {

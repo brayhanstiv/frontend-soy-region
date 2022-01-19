@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
 
-import smslide41 from '../../doc/img/trending/smslide41.jpg';
-import smslide42 from '../../doc/img/trending/smslide42.jpg';
-import smslide43 from '../../doc/img/trending/smslide43.jpg';
+import smslide41 from '../../assets/img/trending/smslide41.jpg';
+import smslide42 from '../../assets/img/trending/smslide42.jpg';
+import smslide43 from '../../assets/img/trending/smslide43.jpg';
 
 const businessPosts = [
     {

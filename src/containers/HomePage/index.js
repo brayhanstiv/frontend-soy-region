@@ -17,15 +17,15 @@ import NewsLetter from "../../components/NewsLetter";
 import CategoriesWidget from "../../components/CategoriesWidget";
 
 // images
-import banner1 from '../../doc/img/bg/banner1.png';
-import banner2 from '../../doc/img/bg/sidebar-1.png';
-import business1 from '../../doc/img/business/business1.jpg';
-import business2 from '../../doc/img/business/business2.jpg';
-import business3 from '../../doc/img/business/business3.jpg';
-import enter1 from '../../doc/img/entertrainment/enter1.jpg';
-import enter2 from '../../doc/img/entertrainment/enter2.jpg';
-import enter3 from '../../doc/img/entertrainment/enter3.jpg';
-import enter4 from '../../doc/img/entertrainment/enter4.jpg';
+import banner1 from '../../assets/img/bg/banner1.png';
+import banner2 from '../../assets/img/bg/sidebar-1.png';
+import business1 from '../../assets/img/business/business1.jpg';
+import business2 from '../../assets/img/business/business2.jpg';
+import business3 from '../../assets/img/business/business3.jpg';
+import enter1 from '../../assets/img/entertrainment/enter1.jpg';
+import enter2 from '../../assets/img/entertrainment/enter2.jpg';
+import enter3 from '../../assets/img/entertrainment/enter3.jpg';
+import enter4 from '../../assets/img/entertrainment/enter4.jpg';
 
 const entertainments = [
     {

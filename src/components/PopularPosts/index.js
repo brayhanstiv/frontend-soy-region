@@ -5,11 +5,11 @@ import Swiper from 'react-id-swiper';
 import {mostViewSort} from "../../utils/commonFunctions";
 
 // images
-import popularsm1 from '../../doc/img/popular/popularsm1.jpg';
-import popularsm2 from '../../doc/img/popular/popularsm2.jpg';
-import popularsm3 from '../../doc/img/popular/popularsm3.jpg';
-import popularsm4 from '../../doc/img/popular/popularsm4.jpg';
-import popularsm5 from '../../doc/img/popular/popularsm5.jpg';
+import popularsm1 from '../../assets/img/popular/popularsm1.jpg';
+import popularsm2 from '../../assets/img/popular/popularsm2.jpg';
+import popularsm3 from '../../assets/img/popular/popularsm3.jpg';
+import popularsm4 from '../../assets/img/popular/popularsm4.jpg';
+import popularsm5 from '../../assets/img/popular/popularsm5.jpg';
 
 import './style.scss';
 

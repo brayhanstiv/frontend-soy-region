@@ -1,7 +1,7 @@
 const menus = [
     {
         id: 1,
-        linkText: 'Home',
+        linkText: 'Inicio',
         child: true,
         icon: 'angle-down',
         submenu: [
@@ -30,7 +30,7 @@ const menus = [
     },
     {
         id: 2,
-        linkText: 'Pages',
+        linkText: 'Categorias',
         child: true,
         icon: 'angle-down',
         submenu: [
@@ -58,7 +58,7 @@ const menus = [
     },
     {
         id: 3,
-        linkText: 'Posts',
+        linkText: 'Contenido',
         child: true,
         icon: 'angle-down',
         submenu: [
@@ -154,7 +154,7 @@ const menus = [
     },
     {
         id: 4,
-        linkText: 'Categories',
+        linkText: 'Regional',
         child: true,
         icon: 'angle-down',
         submenu: [
@@ -187,16 +187,11 @@ const menus = [
     },
     {
         id: 5,
-        linkText: 'World',
+        linkText: 'Blog',
         link: '/world'
-    },
+    },    
     {
         id: 6,
-        linkText: 'Deportes',
-        link: '/sports'
-    },
-    {
-        id: 7,
         linkText: 'Contacto',
         link: '/contact'
     },

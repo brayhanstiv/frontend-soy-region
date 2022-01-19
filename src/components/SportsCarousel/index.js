@@ -4,16 +4,16 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
 
 // images
-import sports2 from '../../doc/img/sports/sports2.jpg';
-import sports3 from '../../doc/img/sports/sports3.jpg';
-import sports4 from '../../doc/img/sports/sports4.jpg';
-import sports5 from '../../doc/img/sports/sports5.jpg';
-import sports6 from '../../doc/img/sports/sports6.jpg';
-import blog_small1 from '../../doc/img/blog/blog_small1.jpg';
-import blog_small2 from '../../doc/img/blog/blog_small2.jpg';
-import blog_small3 from '../../doc/img/blog/blog_small3.jpg';
-import blog_small4 from '../../doc/img/blog/blog_small4.jpg';
-import blog_small5 from '../../doc/img/blog/blog_small5.jpg';
+import sports2 from '../../assets/img/sports/sports2.jpg';
+import sports3 from '../../assets/img/sports/sports3.jpg';
+import sports4 from '../../assets/img/sports/sports4.jpg';
+import sports5 from '../../assets/img/sports/sports5.jpg';
+import sports6 from '../../assets/img/sports/sports6.jpg';
+import blog_small1 from '../../assets/img/blog/blog_small1.jpg';
+import blog_small2 from '../../assets/img/blog/blog_small2.jpg';
+import blog_small3 from '../../assets/img/blog/blog_small3.jpg';
+import blog_small4 from '../../assets/img/blog/blog_small4.jpg';
+import blog_small5 from '../../assets/img/blog/blog_small5.jpg';
 
 import {mostViewSort} from "../../utils/commonFunctions";
 

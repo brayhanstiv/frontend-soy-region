@@ -11,12 +11,12 @@ import BannerSection from "../../components/BannerSection";
 import PostOnePagination from "../../components/PostOnePagination";
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
-import big2 from '../../doc/img/blog/big2.jpg';
-import author2 from '../../doc/img/author/author2.png';
-import big1 from '../../doc/img/blog/big1.jpg';
-import smail1 from '../../doc/img/blog/smail1.jpg';
-import single_post1 from '../../doc/img/blog/single_post1.jpg';
+import banner2 from "../../assets/img/bg/sidebar-1.png";
+import big2 from '../../assets/img/blog/big2.jpg';
+import author2 from '../../assets/img/author/author2.png';
+import big1 from '../../assets/img/blog/big1.jpg';
+import smail1 from '../../assets/img/blog/smail1.jpg';
+import single_post1 from '../../assets/img/blog/single_post1.jpg';
 import OurBlogSection from "../../components/OurBlogSection";
 import BlogComment from "../../components/BlogComment";
 

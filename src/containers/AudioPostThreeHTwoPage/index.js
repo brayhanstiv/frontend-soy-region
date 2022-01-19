@@ -12,9 +12,9 @@ import BlogComment from "../../components/BlogComment";
 
 // images
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
-import author2 from "../../doc/img/author/author2.png";
-import smail1 from "../../doc/img/blog/smail1.jpg";
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
+import author2 from "../../assets/img/author/author2.png";
+import smail1 from "../../assets/img/blog/smail1.jpg";
 
 const AudioPostThreeHTwoPage = () => {
     return (

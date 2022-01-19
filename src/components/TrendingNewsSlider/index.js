@@ -3,8 +3,8 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 import Swiper from 'react-id-swiper';
 
-import trendbig1 from "../../doc/img/trending/trendbig1.jpg";
-import trendbig2 from "../../doc/img/trending/trendbig2.jpg";
+import trendbig1 from "../../assets/img/trending/trendbig1.jpg";
+import trendbig2 from "../../assets/img/trending/trendbig2.jpg";
 
 
 const trendingNews = [

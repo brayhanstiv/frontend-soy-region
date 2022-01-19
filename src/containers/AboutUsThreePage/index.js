@@ -11,11 +11,11 @@ import classnames from "classnames";
 import BreadCrumb from "../../components/BreadCrumb";
 import CategoryFour from "../../components/CategoryFour";
 
-import banner4 from '../../doc/img/bg/banner4.png';
-import finance41 from "../../doc/img/finance/finance41.jpg";
-import calendarImg from '../../doc/img/icon/calendar.png';
-import author1 from '../../doc/img/author/author1.png';
-import video32 from '../../doc/img/blog/video32.jpg';
+import banner4 from '../../assets/img/bg/banner4.png';
+import finance41 from "../../assets/img/finance/finance41.jpg";
+import calendarImg from '../../assets/img/icon/calendar.png';
+import author1 from '../../assets/img/author/author1.png';
+import video32 from '../../assets/img/blog/video32.jpg';
 
 const news = [
     {

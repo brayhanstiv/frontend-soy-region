@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react';
 import {Link} from "react-router-dom";
 
-import sports41 from '../../doc/img/sports/sports41.jpg';
-import sports42 from '../../doc/img/sports/sports42.jpg';
-import sports43 from '../../doc/img/sports/sports43.jpg';
-import sports44 from '../../doc/img/sports/sports44.jpg';
-import sports45 from '../../doc/img/sports/sports45.jpg';
-import sports46 from '../../doc/img/sports/sports46.jpg';
-import sports47 from '../../doc/img/sports/sports47.jpg';
+import sports41 from '../../assets/img/sports/sports41.jpg';
+import sports42 from '../../assets/img/sports/sports42.jpg';
+import sports43 from '../../assets/img/sports/sports43.jpg';
+import sports44 from '../../assets/img/sports/sports44.jpg';
+import sports45 from '../../assets/img/sports/sports45.jpg';
+import sports46 from '../../assets/img/sports/sports46.jpg';
+import sports47 from '../../assets/img/sports/sports47.jpg';
 import FontAwesome from "../uiStyle/FontAwesome";
 
 const sportsNews = [

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import gallery41 from '../../doc/img/gallary/gallery41.jpg';
-import gallery42 from '../../doc/img/gallary/gallery42.jpg';
+import gallery41 from '../../assets/img/gallary/gallery41.jpg';
+import gallery42 from '../../assets/img/gallary/gallery42.jpg';
 import Swiper from 'react-id-swiper';
 
 const galleryPosts = [

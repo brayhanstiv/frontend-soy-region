@@ -12,13 +12,13 @@ import BannerSection from "../../components/BannerSection";
 import classnames from 'classnames';
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
-import enter1 from '../../doc/img/entertrainment/enter1.jpg';
-import enter2 from '../../doc/img/entertrainment/enter2.jpg';
-import enter3 from '../../doc/img/entertrainment/enter3.jpg';
-import enter4 from '../../doc/img/entertrainment/enter4.jpg';
-import author1 from '../../doc/img/author/author1.png';
-import calendar from '../../doc/img/icon/calendar.png';
+import banner2 from "../../assets/img/bg/sidebar-1.png";
+import enter1 from '../../assets/img/entertrainment/enter1.jpg';
+import enter2 from '../../assets/img/entertrainment/enter2.jpg';
+import enter3 from '../../assets/img/entertrainment/enter3.jpg';
+import enter4 from '../../assets/img/entertrainment/enter4.jpg';
+import author1 from '../../assets/img/author/author1.png';
+import calendar from '../../assets/img/icon/calendar.png';
 
 const entertainments = [
     {

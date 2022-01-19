@@ -4,11 +4,11 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
 
 // images
-import mostsm1 from '../../doc/img/most_view/mostsm1.jpg';
-import mostsm2 from '../../doc/img/most_view/mostsm2.jpg';
-import mostsm3 from '../../doc/img/most_view/mostsm3.jpg';
-import mostsm4 from '../../doc/img/most_view/mostsm4.jpg';
-import mostsm5 from '../../doc/img/most_view/mostsm5.jpg';
+import mostsm1 from '../../assets/img/most_view/mostsm1.jpg';
+import mostsm2 from '../../assets/img/most_view/mostsm2.jpg';
+import mostsm3 from '../../assets/img/most_view/mostsm3.jpg';
+import mostsm4 from '../../assets/img/most_view/mostsm4.jpg';
+import mostsm5 from '../../assets/img/most_view/mostsm5.jpg';
 import {mostViewSort} from "../../utils/commonFunctions";
 
 const mostView = [

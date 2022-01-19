@@ -4,13 +4,13 @@ import {Link} from "react-router-dom";
 import ModalVideo from 'react-modal-video'
 
 // images
-import video21 from '../../doc/img/video/video21.jpg';
-import video22 from '../../doc/img/video/video22.jpg';
-import video23 from '../../doc/img/video/video23.jpg';
-import video24 from '../../doc/img/video/video24.jpg';
-import video25 from '../../doc/img/video/video25.jpg';
-import video26 from '../../doc/img/video/video26.jpg';
-import video27 from '../../doc/img/video/video27.jpg';
+import video21 from '../../assets/img/video/video21.jpg';
+import video22 from '../../assets/img/video/video22.jpg';
+import video23 from '../../assets/img/video/video23.jpg';
+import video24 from '../../assets/img/video/video24.jpg';
+import video25 from '../../assets/img/video/video25.jpg';
+import video26 from '../../assets/img/video/video26.jpg';
+import video27 from '../../assets/img/video/video27.jpg';
 
 const posts = [
     {

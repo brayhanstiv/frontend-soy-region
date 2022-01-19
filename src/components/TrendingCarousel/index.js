@@ -4,11 +4,11 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
 
 // images
-import trends1 from '../../doc/img/trending/transm23.jpg';
-import trends2 from '../../doc/img/trending/transm24.jpg';
-import trends3 from '../../doc/img/trending/transm25.jpg';
-import trends4 from '../../doc/img/trending/transm26.jpg';
-import trends5 from '../../doc/img/trending/transm27.jpg';
+import trends1 from '../../assets/img/trending/transm23.jpg';
+import trends2 from '../../assets/img/trending/transm24.jpg';
+import trends3 from '../../assets/img/trending/transm25.jpg';
+import trends4 from '../../assets/img/trending/transm26.jpg';
+import trends5 from '../../assets/img/trending/transm27.jpg';
 
 import {mostViewSort} from "../../utils/commonFunctions";
 

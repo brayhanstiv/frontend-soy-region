@@ -7,9 +7,9 @@ import PostOnePagination from "../../components/PostOnePagination";
 import OurBlogSectionTwo from "../../components/OurBlogSectionTwo";
 import BlogComment from "../../components/BlogComment";
 
-import author2 from "../../doc/img/author/author2.png";
-import smail1 from "../../doc/img/blog/smail1.jpg";
-import banner42 from "../../doc/img/bg/banner42.png";
+import author2 from "../../assets/img/author/author2.png";
+import smail1 from "../../assets/img/blog/smail1.jpg";
+import banner42 from "../../assets/img/bg/banner42.png";
 import WidgetTabFour from "../../components/WidgetTabFour";
 
 const AudioPostTwoHThreePage = () => {

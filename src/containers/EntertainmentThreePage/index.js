@@ -8,13 +8,13 @@ import {Link} from "react-router-dom";
 import FontAwesome from "../../components/uiStyle/FontAwesome";
 import InternationalNews from "../../components/InternationalNews";
 
-import banner4 from '../../doc/img/bg/banner4.png';
-import finance41 from "../../doc/img/finance/finance41.jpg";
-import international41 from '../../doc/img/international/international41.jpg';
-import international42 from '../../doc/img/international/international42.jpg';
-import international43 from '../../doc/img/international/international43.jpg';
-import international44 from '../../doc/img/international/international44.jpg';
-import international45 from '../../doc/img/international/international45.jpg';
+import banner4 from '../../assets/img/bg/banner4.png';
+import finance41 from "../../assets/img/finance/finance41.jpg";
+import international41 from '../../assets/img/international/international41.jpg';
+import international42 from '../../assets/img/international/international42.jpg';
+import international43 from '../../assets/img/international/international43.jpg';
+import international44 from '../../assets/img/international/international44.jpg';
+import international45 from '../../assets/img/international/international45.jpg';
 
 const businessPosts = [
     {

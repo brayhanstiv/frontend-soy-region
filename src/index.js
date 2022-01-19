@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.min.css';
-import './doc/scss/master.scss';
+import './assets/scss/master.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import 'swiper/swiper.scss'
 import 'react-modal-video/scss/modal-video.scss';

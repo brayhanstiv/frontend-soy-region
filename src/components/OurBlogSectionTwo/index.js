@@ -1,7 +1,7 @@
 import React from 'react';
 
 // image
-import video4 from '../../doc/img/bg/video4.jpg';
+import video4 from '../../assets/img/bg/video4.jpg';
 import {Link} from "react-router-dom";
 import FontAwesome from "../uiStyle/FontAwesome";
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
 // image
-import video4 from '../../doc/img/bg/video4.jpg';
-import video1 from '../../doc/img/bg/1.png';
-import video2 from '../../doc/img/bg/2.png';
+import video4 from '../../assets/img/bg/video4.jpg';
+import video1 from '../../assets/img/bg/1.png';
+import video2 from '../../assets/img/bg/2.png';
 import {Link} from "react-router-dom";
 
 const blog = [

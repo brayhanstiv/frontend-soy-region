@@ -29,22 +29,22 @@ const TopBar = ({className, dark}) => {
                 <div className="row">
                     <div className="col-md-8 align-self-center">
                         <div className={`trancarousel_area ${dark ? 'white' : ''}`}>
-                            <p className="trand">Tranding</p>
+                            <p className="trand">Ultimas Noticias</p>
                             <div className="nav_style1">
                                 <Swiper getSwiper={setSwiper} className="trancarousel" {...params}>
                                     <div className="trancarousel_item">
-                                        <p><Link to="/">Top 10 Best Movies of 2018 So Far: Great Movies To Watch
-                                            Now</Link>
+                                        <p><Link to="/">TLas 10 mejores películas del 2022 hasta ahora: grandes películas para ver
+                                            </Link>
                                         </p>
                                     </div>
                                     <div className="trancarousel_item">
-                                        <p><Link to="/">Top 20 Best Movies of 2018 So Far: Great Movies To Watch
-                                            Now</Link>
+                                        <p><Link to="/">¿Cómo será el regreso a clases presencial en los colegios del Huila?
+                                            </Link>
                                         </p>
                                     </div>
                                     <div className="trancarousel_item">
-                                        <p><Link to="/">Top 10 Best Movies of 2018 So Far: Great Movies To Watch
-                                            Now</Link>
+                                        <p><Link to="/">Vacuna de Janssen no se está utilizando en dosis de refuerzo
+                                            </Link>
                                         </p>
                                     </div>
                                 </Swiper>
@@ -61,7 +61,7 @@ const TopBar = ({className, dark}) => {
                     <div className="col-md-4 align-self-center">
                         <div className="top_date_social text-right">
                             <div className={`paper_date ${dark ? 'white' : ''}`}>
-                                <p>Thursday, March 26, 2020</p>
+                                <p>Sábado, Enero 22, 2022</p>
                             </div>
                             <div className={`social1 ${dark ? 'white' : ''}`}>
                                 <ul className="inline">

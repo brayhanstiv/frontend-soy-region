@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import author2 from '../../doc/img/author/author2.png';
+import author2 from '../../assets/img/author/author2.png';
 import {Link} from "react-router-dom";
 import SimpleReactValidator from "simple-react-validator";
 import {toast} from "react-toastify";

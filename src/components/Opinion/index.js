@@ -1,5 +1,5 @@
 import React from 'react';
-import tab21 from '../../doc/img/tab/tab21.jpg';
+import tab21 from '../../assets/img/tab/tab21.jpg';
 import {Link} from "react-router-dom";
 
 const Opinion = () => {

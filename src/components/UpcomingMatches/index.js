@@ -3,11 +3,11 @@ import {Link} from "react-router-dom";
 import {CircleSlider} from "react-circle-slider";
 
 // images
-import match1 from '../../doc/img/flag/match1.png';
-import match2 from '../../doc/img/flag/match2.png';
-import match3 from '../../doc/img/flag/match3.png';
-import match4 from '../../doc/img/flag/match4.png';
-import match5 from '../../doc/img/flag/match5.png';
+import match1 from '../../assets/img/flag/match1.png';
+import match2 from '../../assets/img/flag/match2.png';
+import match3 from '../../assets/img/flag/match3.png';
+import match4 from '../../assets/img/flag/match4.png';
+import match5 from '../../assets/img/flag/match5.png';
 
 const matches = [
     {

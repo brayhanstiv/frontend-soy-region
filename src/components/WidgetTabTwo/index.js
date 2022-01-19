@@ -3,11 +3,11 @@ import {TabContent, TabPane, Nav, NavItem, NavLink, Fade} from 'reactstrap';
 import classnames from 'classnames';
 import {Link} from "react-router-dom";
 
-import tab21 from '../../doc/img/tab/tab21.jpg';
-import tab22 from '../../doc/img/tab/tab22.jpg';
-import tab23 from '../../doc/img/tab/tab23.jpg';
-import tab24 from '../../doc/img/tab/tab24.jpg';
-import tab25 from '../../doc/img/tab/tab25.jpg';
+import tab21 from '../../assets/img/tab/tab21.jpg';
+import tab22 from '../../assets/img/tab/tab22.jpg';
+import tab23 from '../../assets/img/tab/tab23.jpg';
+import tab24 from '../../assets/img/tab/tab24.jpg';
+import tab25 from '../../assets/img/tab/tab25.jpg';
 
 const data = [
     {

@@ -8,11 +8,11 @@ import WidgetMorenews from "../WidgetMorenews";
 import TwitterfeedTwo from "../TwitterfeedTwo";
 
 // images
-import logo from '../../doc/img/logo/logo.png';
-import banner from '../../doc/img/add/add21.jpg';
-import phone_black from '../../doc/img/icon/phone_black.png';
-import speaker_black from '../../doc/img/icon/speaker_black.png';
-import envelope_black from '../../doc/img/icon/envelope_black.png';
+import logo from '../../assets/img/logo/logo.png';
+import banner from '../../assets/img/add/add21.jpg';
+import phone_black from '../../assets/img/icon/phone_black.png';
+import speaker_black from '../../assets/img/icon/speaker_black.png';
+import envelope_black from '../../assets/img/icon/envelope_black.png';
 
 const FooterAreaTwo = () => {
     return (

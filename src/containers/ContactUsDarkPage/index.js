@@ -6,8 +6,8 @@ import FollowUs from "../../components/FollowUs";
 import SimpleReactValidator from 'simple-react-validator';
 import {toast} from "react-toastify";
 
-import scrollIcon from '../../doc/img/icon/scroll.png';
-import phone4 from '../../doc/img/icon/phone4.png';
+import scrollIcon from '../../assets/img/icon/scroll.png';
+import phone4 from '../../assets/img/icon/phone4.png';
 
 class ContactUsDarkPage extends Component {
     constructor(props) {

@@ -13,12 +13,12 @@ import ModalVideo from 'react-modal-video'
 
 // images
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
-import single_post1 from "../../doc/img/blog/single_post1.jpg";
-import author2 from "../../doc/img/author/author2.png";
-import smail1 from "../../doc/img/blog/smail1.jpg";
-import big1 from "../../doc/img/blog/big1.jpg";
-import big2 from "../../doc/img/blog/big2.jpg";
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
+import single_post1 from "../../assets/img/blog/single_post1.jpg";
+import author2 from "../../assets/img/author/author2.png";
+import smail1 from "../../assets/img/blog/smail1.jpg";
+import big1 from "../../assets/img/blog/big1.jpg";
+import big2 from "../../assets/img/blog/big2.jpg";
 
 const VideoPostThreeHTwoPage = () => {
     const [vModal, setvModal] = useState(false);

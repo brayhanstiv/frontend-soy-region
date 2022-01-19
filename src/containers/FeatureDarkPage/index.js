@@ -9,7 +9,7 @@ import FollowUs from "../../components/FollowUs";
 import FeatureNewsAll from "../../components/FeatureNewsAll";
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
+import banner2 from "../../assets/img/bg/sidebar-1.png";
 import BannerSection from "../../components/BannerSection";
 
 const FeatureDarkPage = () => {

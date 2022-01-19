@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import Swiper from 'react-id-swiper';
-import hside4 from '../../doc/img/header/slider/hside4.jpg';
-import hside5 from '../../doc/img/header/slider/hside5.jpg';
-import hside6 from '../../doc/img/header/slider/hside6.jpg';
-import hside1 from '../../doc/img/header/slider/hside1.jpg';
-import hside2 from '../../doc/img/header/slider/hside2.jpg';
-import hside3 from '../../doc/img/header/slider/hside3.jpg';
+import hside4 from '../../assets/img/header/slider/hside4.jpg';
+import hside5 from '../../assets/img/header/slider/hside5.jpg';
+import hside6 from '../../assets/img/header/slider/hside6.jpg';
+import hside1 from '../../assets/img/header/slider/hside1.jpg';
+import hside2 from '../../assets/img/header/slider/hside2.jpg';
+import hside3 from '../../assets/img/header/slider/hside3.jpg';
 import FontAwesome from "../uiStyle/FontAwesome";
 
 const postSlider = [

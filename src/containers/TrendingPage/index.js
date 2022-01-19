@@ -9,9 +9,9 @@ import FollowUs from "../../components/FollowUs";
 import EntertainmentNews from "../../components/EntertainmentNews";
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
-import trendbig1 from '../../doc/img/trending/trendbig1.jpg';
-import trendbig2 from '../../doc/img/trending/trendbig2.jpg';
+import banner2 from "../../assets/img/bg/sidebar-1.png";
+import trendbig1 from '../../assets/img/trending/trendbig1.jpg';
+import trendbig2 from '../../assets/img/trending/trendbig2.jpg';
 import BannerSection from "../../components/BannerSection";
 
 const trendings = [

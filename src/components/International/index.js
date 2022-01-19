@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react';
-import most21 from "../../doc/img/most_view/most21.jpg";
-import most22 from "../../doc/img/most_view/most22.jpg";
-import most23 from "../../doc/img/most_view/most23.jpg";
-import most24 from "../../doc/img/most_view/most24.jpg";
+import most21 from "../../assets/img/most_view/most21.jpg";
+import most22 from "../../assets/img/most_view/most22.jpg";
+import most23 from "../../assets/img/most_view/most23.jpg";
+import most24 from "../../assets/img/most_view/most24.jpg";
 import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 

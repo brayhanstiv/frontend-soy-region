@@ -3,9 +3,9 @@ import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 
 // images
-import most26 from '../../doc/img/most_view/most26.jpg';
-import most27 from '../../doc/img/most_view/most27.jpg';
-import most28 from '../../doc/img/most_view/most28.jpg';
+import most26 from '../../assets/img/most_view/most26.jpg';
+import most27 from '../../assets/img/most_view/most27.jpg';
+import most28 from '../../assets/img/most_view/most28.jpg';
 
 const posts = [
     {

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import FontAwesome from "../uiStyle/FontAwesome";
-import fultab41 from '../../doc/img/tab/fultab41.jpg';
+import fultab41 from '../../assets/img/tab/fultab41.jpg';
 import {Link} from "react-router-dom";
 
 const videoPosts = [

@@ -1,16 +1,16 @@
 import React, {Fragment} from 'react';
 import {Link} from "react-router-dom";
-import logo42 from "../../doc/img/logo/logo42.png";
+import logo42 from "../../assets/img/logo/logo42.png";
 import FontAwesome from "../uiStyle/FontAwesome";
 import FooterNewsCategories from "../FooterNewsCategories";
 import FooterMoreNewsTwo from "../FooterMoreNewsTwo";
 import NewsLetter from "../NewsLetter";
 import FollowUs from "../FollowUs";
 
-import phone_black from "../../doc/img/icon/phone4.png";
-import speaker_black from "../../doc/img/icon/speaker4.png";
-import envelope_black from "../../doc/img/icon/envelope4.png";
-import banner4 from "../../doc/img/bg/banner4.png";
+import phone_black from "../../assets/img/icon/phone4.png";
+import speaker_black from "../../assets/img/icon/speaker4.png";
+import envelope_black from "../../assets/img/icon/envelope4.png";
+import banner4 from "../../assets/img/bg/banner4.png";
 
 const twitts = [
     {

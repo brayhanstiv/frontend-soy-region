@@ -8,9 +8,9 @@ import BlogComment from "../../components/BlogComment";
 import WidgetTab from "../../components/WidgetTab";
 
 // images
-import author2 from "../../doc/img/author/author2.png";
-import smail1 from "../../doc/img/blog/smail1.jpg";
-import banner1 from "../../doc/img/bg/banner1.png";
+import author2 from "../../assets/img/author/author2.png";
+import smail1 from "../../assets/img/blog/smail1.jpg";
+import banner1 from "../../assets/img/bg/banner1.png";
 
 const AudioPostTwoHTwoPage = () => {
     return (

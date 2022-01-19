@@ -7,8 +7,8 @@ import FontAwesome from "../../components/uiStyle/FontAwesome";
 import BannerSection from "../../components/BannerSection";
 import WidgetTrendingNewsTwo from "../../components/WidgetTrendingNewsTwo";
 
-import sd_banner_img from '../../doc/img/bg/sidebar-1.png';
-import trend22 from '../../doc/img/trending/trend22.jpg';
+import sd_banner_img from '../../assets/img/bg/sidebar-1.png';
+import trend22 from '../../assets/img/trending/trend22.jpg';
 
 const trendings_news = [
     {

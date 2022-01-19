@@ -2,13 +2,13 @@ import React, {Fragment} from 'react';
 import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 // images
-import business21 from '../../doc/img/business/business21.jpg';
-import arrow3 from '../../doc/img/icon/arrow3.png';
-import business22 from '../../doc/img/business/business22.jpg';
-import business23 from '../../doc/img/business/business23.jpg';
-import business24 from '../../doc/img/business/business24.jpg';
-import business25 from '../../doc/img/business/business25.jpg';
-import business26 from '../../doc/img/business/business26.jpg';
+import business21 from '../../assets/img/business/business21.jpg';
+import arrow3 from '../../assets/img/icon/arrow3.png';
+import business22 from '../../assets/img/business/business22.jpg';
+import business23 from '../../assets/img/business/business23.jpg';
+import business24 from '../../assets/img/business/business24.jpg';
+import business25 from '../../assets/img/business/business25.jpg';
+import business26 from '../../assets/img/business/business26.jpg';
 
 const business = [
     {

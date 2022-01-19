@@ -9,11 +9,11 @@ import FollowUs from "../../components/FollowUs";
 import EntertainmentNews from "../../components/EntertainmentNews";
 
 // images
-import banner2 from "../../doc/img/bg/sidebar-1.png";
-import enter1 from '../../doc/img/entertrainment/enter1.jpg';
-import enter2 from '../../doc/img/entertrainment/enter2.jpg';
-import enter3 from '../../doc/img/entertrainment/enter3.jpg';
-import enter4 from '../../doc/img/entertrainment/enter4.jpg';
+import banner2 from "../../assets/img/bg/sidebar-1.png";
+import enter1 from '../../assets/img/entertrainment/enter1.jpg';
+import enter2 from '../../assets/img/entertrainment/enter2.jpg';
+import enter3 from '../../assets/img/entertrainment/enter3.jpg';
+import enter4 from '../../assets/img/entertrainment/enter4.jpg';
 import BannerSection from "../../components/BannerSection";
 
 const entertainments = [
