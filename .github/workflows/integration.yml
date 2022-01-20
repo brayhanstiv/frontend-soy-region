@@ -21,7 +21,6 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
-        uses: actions/setup-python@v2
         run: npm ci
 
       - name: Build application
