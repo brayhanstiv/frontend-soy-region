@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import BreadCrumb from "../../components/BreadCrumb";
 import FontAwesome from "../../components/uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
-import WidgetTab from "../../components/WidgetTab";
+// import WidgetTab from "../../components/WidgetTab";
 import WidgetTrendingNews from "../../components/WidgetTrendingNews";
 import NewsLetter from "../../components/NewsLetter";
 import MostShareWidget from "../../components/MostShareWidget";
@@ -301,7 +301,7 @@ const PostThreePage = () => {
                             <PostOnePagination className="next_prv_single padding20 shadow6 next_prv_single3"/>
                         </div>
                         <div className="col-md-6 col-lg-4">
-                            <WidgetTab/>
+                            {/* <WidgetTab/> */}
                             <FollowUs title="Follow Us"/>
                             <WidgetTrendingNews/>
                             <div className="banner2 mb30">

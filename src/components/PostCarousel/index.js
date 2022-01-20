@@ -1,46 +1,14 @@
+// Packages
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import Swiper from 'react-id-swiper';
-import hside4 from '../../assets/img/header/slider/hside4.jpg';
-import hside5 from '../../assets/img/header/slider/hside5.jpg';
-import hside6 from '../../assets/img/header/slider/hside6.jpg';
-import hside1 from '../../assets/img/header/slider/hside1.jpg';
-import hside2 from '../../assets/img/header/slider/hside2.jpg';
-import hside3 from '../../assets/img/header/slider/hside3.jpg';
+
+// Data
+import {postSlider} from '../../common/data/postCarousel';
+
+// Styles
 import FontAwesome from "../uiStyle/FontAwesome";
 
-const postSlider = [
-    {
-        title: 'The home decorations document: photograph of an',
-        body: 'People have been infected',
-        image: hside4
-    },
-    {
-        title: 'U.S. Response subash says he will label regions by risk of…',
-        body: 'People have been infected',
-        image: hside5
-    },
-    {
-        title: 'Stimul package will transform the government fundamentally.',
-        body: 'People have been infected',
-        image: hside6
-    },
-    {
-        title: 'U.S. Response subash says he will label regions by risk of…',
-        body: 'People have been infected',
-        image: hside1
-    },
-    {
-        title: 'U.S. Response subash says he will label regions by risk of…',
-        body: 'People have been infected',
-        image: hside2
-    },
-    {
-        title: 'U.S. Response subash says he will label regions by risk of…',
-        body: 'People have been infected',
-        image: hside3
-    },
-];
 
 const PostCarousel = ({className}) => {
     const [swiper, setSwiper] = useState(null);

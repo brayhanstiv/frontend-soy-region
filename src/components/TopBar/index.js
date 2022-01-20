@@ -1,6 +1,9 @@
+// Packages
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import Swiper from 'react-id-swiper';
+
+// Styles
 import FontAwesome from "../uiStyle/FontAwesome";
 
 const TopBar = ({className, dark}) => {
