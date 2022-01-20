@@ -5,8 +5,7 @@ on:
     branches:
       - master
 
-permissions:
-      issues: write 
+permissions: read-all|write-all
 
 jobs:
   deploy:
@@ -30,10 +29,6 @@ jobs:
 
       - name: Build application
         run: npm run build
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Move Deploy
         run: sh deploy.sh
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
