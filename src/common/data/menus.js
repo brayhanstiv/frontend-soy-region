@@ -1,7 +1,7 @@
 const menus = [
   {
     id: 1,
-    linkText: "Inicio2",
+    linkText: "Inicio",
     link: "/",
   },
   {
