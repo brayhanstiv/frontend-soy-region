@@ -14,7 +14,7 @@ const data = [
         image: thumb1,
         title: 'Copa America: Luis Suarez from devastated US',
         category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
+        date: 'March 27, 2020'
     },
     {
         image: thumb2,
