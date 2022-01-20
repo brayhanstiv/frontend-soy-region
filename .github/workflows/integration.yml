@@ -1,13 +1,12 @@
 name: Continuous Integration
 
 on:
-  pull_request:
+  pull-request:
     branches:
       - master
 
 permissions:
-  contents: write
-  pull-requests: write
+      issues: write 
 
 jobs:
   deploy:
@@ -15,17 +14,26 @@ jobs:
     steps:
       - name: Checkout master branch
         uses: actions/checkout@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
           node-version: '17.x'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
         run: npm ci
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build application
         run: npm run build
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Move Deploy
         run: sh deploy.sh
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
