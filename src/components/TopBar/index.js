@@ -26,6 +26,18 @@ const TopBar = ({className, dark}) => {
             prevEl: '.swiper-button-prev'
         }
     };
+
+    const date = () =>{
+
+      const days = [ 'Domingo', 'Lunes', 'martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado' ];
+      
+      const months = [ 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre' ];
+        
+      const d = new Date();
+        
+      return `${ days[d.getDay()] }, ${ months[d.getMonth()] + " " + d.getDate() }, ${ d.getUTCFullYear() }` ;
+    };
+
     return (
         <div className={`topbar ${className ? className : ''}`} id="top">
             <div className="container">
@@ -64,7 +76,9 @@ const TopBar = ({className, dark}) => {
                     <div className="col-md-4 align-self-center">
                         <div className="top_date_social text-right">
                             <div className={`paper_date ${dark ? 'white' : ''}`}>
-                                <p>Sábado, Enero 22, 2022</p>
+                                
+                                <p>{date()}</p>
+                                
                             </div>
                             <div className={`social1 ${dark ? 'white' : ''}`}>
                                 <ul className="inline">

@@ -3,44 +3,7 @@ import {TabContent, TabPane, Nav, NavItem, Fade} from 'reactstrap';
 import classnames from 'classnames';
 import {Link} from "react-router-dom";
 
-import thumb1 from '../../assets/img/header/widget/tab1.jpg';
-import thumb2 from '../../assets/img/header/widget/tab2.jpg';
-import thumb3 from '../../assets/img/header/widget/tab3.jpg';
-import thumb4 from '../../assets/img/header/widget/tab4.jpg';
-import thumb5 from '../../assets/img/header/widget/tab5.jpg';
-
-const data = [
-    {
-        image: thumb1,
-        title: 'Copa America: Luis Suarez from devastated US',
-        category: 'TECHNOLOGY',
-        date: 'March 27, 2020'
-    },
-    {
-        image: thumb2,
-        title: 'Nancy Zhang a Chinese busy woman and Dhaka',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
-    },
-    {
-        image: thumb3,
-        title: 'U.S. Response subash says he will label regions by risk of…',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
-    },
-    {
-        image: thumb4,
-        title: 'Venezuela elan govt and opposit the property collect',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
-    },
-    {
-        image: thumb5,
-        title: 'Cheap smartphone sensor could help you old food safe',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
-    },
-];
+import {data} from '../../common/data/widgetTap';
 
 const WidgetTabPane = ({arr, a_id, id, dark}) => {
     return (

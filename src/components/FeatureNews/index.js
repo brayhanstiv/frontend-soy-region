@@ -1,51 +1,16 @@
+// Packages
 import React, {useState} from 'react';
-import Heading from "../uiStyle/Heading";
 import Swiper from 'react-id-swiper';
-
-import fnewsImg2 from '../../assets/img/feature/feature2.jpg';
-import fnewsImg3 from '../../assets/img/feature/feature3.jpg';
-import fnewsImg4 from '../../assets/img/feature/feature4.jpg';
 import {Link} from "react-router-dom";
+
+// Components
+import Heading from "../uiStyle/Heading";
+
+// styles
 import FontAwesome from "../uiStyle/FontAwesome";
 
-const news = [
-    {
-        image: fnewsImg2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-    {
-        image: fnewsImg4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-    {
-        image: fnewsImg4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-];
+// Data
+import {news} from '../../common/data/featureNews'
 
 const FeatureNews = ({className}) => {
     const [swiper, setSwiper] = useState(null);
@@ -89,7 +54,7 @@ const FeatureNews = ({className}) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <Heading title="Feature News"/>
+                        <Heading title="Noticias destacadas"/>
                     </div>
                 </div>
                 <div className="row">

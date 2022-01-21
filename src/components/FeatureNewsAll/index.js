@@ -1,8 +1,8 @@
 import React from 'react';
 
-import fnewsImg2 from '../../assets/img/feature/feature2.jpg';
-import fnewsImg3 from '../../assets/img/feature/feature3.jpg';
-import fnewsImg4 from '../../assets/img/feature/feature4.jpg';
+import fnewsImg2 from '../../assets/img/feature/feature2.jpeg';
+import fnewsImg3 from '../../assets/img/feature/feature3.jpeg';
+import fnewsImg4 from '../../assets/img/feature/feature4.jpeg';
 import {Link} from "react-router-dom";
 
 const news = [
