@@ -9,6 +9,7 @@ import sports3 from '../../assets/img/sports/sports3.jpg';
 import sports4 from '../../assets/img/sports/sports4.jpg';
 import sports5 from '../../assets/img/sports/sports5.jpg';
 import sports6 from '../../assets/img/sports/sports6.jpg';
+
 import blog_small1 from '../../assets/img/blog/blog_small1.jpg';
 import blog_small2 from '../../assets/img/blog/blog_small2.jpg';
 import blog_small3 from '../../assets/img/blog/blog_small3.jpg';
@@ -20,63 +21,63 @@ import {mostViewSort} from "../../utils/commonFunctions";
 const mostView = [
     {
         image: sports2,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: sports3,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'The billionaire Philan thropist read to learn',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: sports4,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Cheap smartphone sensor could help you',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: sports5,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Ratiffe to be Director of nation talent Trump',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: sports6,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: blog_small1,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'The billionaire Philan thropist read to learn',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: blog_small2,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
+        title: 'Siete beneficios de la actividad fisica regular'
     },
     {
         image: blog_small3,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'The billionaire Philan thropist read to learn',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: blog_small4,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Cheap smartphone sensor could help you',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
     {
         image: blog_small5,
-        category: 'TECHNOLOGY',
+        category: 'DEPORTES',
         date: 'March 26, 2020',
-        title: 'Ratiffe to be Director of nation talent Trump',
+        title: 'Siete beneficios de la actividad fisica regular',
     },
 ];
 

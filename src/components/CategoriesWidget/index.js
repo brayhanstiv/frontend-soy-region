@@ -13,32 +13,32 @@ const categories = [
     {
         small_img: union,
         big_image: category1,
-        title: 'Restaurant',
+        title: 'Restaurantes',
     },
     {
         small_img: union,
         big_image: category2,
-        title: 'Entertainment',
+        title: 'Entretenimiento',
     },
     {
         small_img: union,
         big_image: category3,
-        title: 'Feature',
+        title: 'Tecnología',
     },
     {
         small_img: union,
         big_image: category4,
-        title: 'Business',
+        title: 'Negocios',
     },
     {
         small_img: union,
         big_image: category5,
-        title: 'Trending',
+        title: 'Tendencias',
     },
     {
         small_img: union,
         big_image: category6,
-        title: 'Sports',
+        title: 'Deportes',
     },
 ];
 
@@ -47,10 +47,10 @@ const CategoriesWidget = () => {
         <div className="widget category mb30">
             <div className="row">
                 <div className="col-6 align-self-center">
-                    <h2 className="widget-title">Categories</h2>
+                    <h2 className="widget-title">Categorias</h2>
                 </div>
                 <div className="col-6 text-right align-self-center">
-                    <Link to="/" className="see_all mb20">See All</Link>
+                    <Link to="/" className="see_all mb20">Ver Todo</Link>
                 </div>
             </div>
             <ul>

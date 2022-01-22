@@ -54,7 +54,7 @@ const WidgetTab = ({className, dark}) => {
                             toggle('1');
                         }}
                     >
-                        RELATED
+                        RELACIONADO
                     </Link>
                 </NavItem>
                 <NavItem>
@@ -65,7 +65,7 @@ const WidgetTab = ({className, dark}) => {
                             toggle('2');
                         }}
                     >
-                        RELATED
+                        RELACIONADO
                     </Link>
                 </NavItem>
                 <NavItem>
