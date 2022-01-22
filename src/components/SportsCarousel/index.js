@@ -9,6 +9,7 @@ import sports3 from '../../assets/img/sports/sports3.jpg';
 import sports4 from '../../assets/img/sports/sports4.jpg';
 import sports5 from '../../assets/img/sports/sports5.jpg';
 import sports6 from '../../assets/img/sports/sports6.jpg';
+
 import blog_small1 from '../../assets/img/blog/blog_small1.jpg';
 import blog_small2 from '../../assets/img/blog/blog_small2.jpg';
 import blog_small3 from '../../assets/img/blog/blog_small3.jpg';
@@ -22,7 +23,7 @@ const mostView = [
         image: sports2,
         category: 'TECHNOLOGY',
         date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
+        title: 'hhhNancy zhang a chinese busy woman and dhaka',
     },
     {
         image: sports3,
