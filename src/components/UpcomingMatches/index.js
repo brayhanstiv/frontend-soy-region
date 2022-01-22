@@ -13,36 +13,36 @@ const matches = [
     {
         image: match1,
         value: 30,
-        countries: ['Germany', 'France'],
-        date: 'Tomorrow',
+        countries: ['España', 'Portugal'],
+        date: 'Mañana',
         time: 'M22:30 (CST)',
     },
     {
         image: match2,
         value: 30,
-        countries: ['Germany', 'France'],
-        date: 'Tomorrow',
+        countries: ['Alemania', 'Francia'],
+        date: 'Mañana',
         time: 'M22:30 (CST)',
     },
     {
         image: match3,
         value: 30,
-        countries: ['Germany', 'France'],
-        date: 'Tomorrow',
+        countries: ['Rusia', 'Italia'],
+        date: 'Mañana',
         time: 'M22:30 (CST)',
     },
     {
         image: match4,
         value: 30,
-        countries: ['Germany', 'France'],
-        date: 'Tomorrow',
+        countries: ['Ucrania', 'Inglaterra'],
+        date: 'Mañana',
         time: 'M22:30 (CST)',
     },
     {
         image: match5,
         value: 30,
-        countries: ['Germany', 'France'],
-        date: 'Tomorrow',
+        countries: ['Alemania', 'Francia'],
+        date: 'Mañana',
         time: 'M22:30 (CST)',
     },
 ];
@@ -52,10 +52,10 @@ const UpcomingMatches = ({dark}) => {
         <div className="widget upcomming_macth mb30">
             <div className="row">
                 <div className="col-8 align-self-center">
-                    <h2 className="widget-title">Upcoming Matches</h2>
+                    <h2 className="widget-title">Próximos partidos</h2>
                 </div>
                 <div className="col-4 text-right align-self-center">
-                    <Link to="#" className="see_all mb20">See All</Link>
+                    <Link to="#" className="see_all mb20">Ver Todo</Link>
                 </div>
             </div>
             {matches.map((item, i) => (

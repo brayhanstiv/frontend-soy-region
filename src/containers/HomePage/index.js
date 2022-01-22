@@ -74,7 +74,7 @@ const HomePage = () => {
                         <div className="col-lg-4">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <MostShareWidget title="Most share"/>
+                                    <MostShareWidget title="Lo Más Compartido"/>
                                 </div>
                                 <div className="col-lg-12">
                                     <UpcomingMatches/>

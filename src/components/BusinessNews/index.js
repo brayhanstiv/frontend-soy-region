@@ -28,12 +28,12 @@ const BusinessNews = ({businessNews, headerHide}) => {
                                     </div>
                                     <div className="single_post_text">
                                         <div className="meta3"><Link to="/">Negocios</Link>
-                                            <Link to="#">March 26, 2020</Link>
+                                            <Link to="#">Marzo 26, 2020</Link>
                                         </div>
-                                        <h4><Link to="/post1">holaCopa America: Luis Suarez from devastated US</Link></h4>
+                                        <h4><Link to="/post1">Noticias de negocios en colombia y el mundo</Link></h4>
                                         <div className="space-10"/>
-                                        <p className="post-p">The property, complete with 30-seat screening from room, a
-                                            100-seat amphitheater and a swimming pond with…</p>
+                                        <p className="post-p">Un análisis del resultado de los bancos a octubre de 2021, realizado por Bancolombia,
+                                             muestra que la utilidad neta mantiene una tendencia…</p>
                                         <div className="space-20"/>
                                         <Link to="/" className="readmore">Leer Más</Link>
                                     </div>
