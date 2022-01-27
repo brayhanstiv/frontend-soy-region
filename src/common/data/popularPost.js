@@ -8,52 +8,52 @@ import popularsm5 from '../../assets/img/popular/popularsm5.jpeg';
 const populerPOsts = [
     {
         image: popularsm1,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Hombre fue enviado a la cárcel por robarse 4 latas...',
     },
     {
         image: popularsm2,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Mano derecha del Papa Francisco, Pietro Parolin.',
     },
     {
         image: popularsm3,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Denuncian a entrenador de Liga de Atletismo por...',
     },
     {
         image: popularsm4,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Mujer asegura que perdió el cartílago de la nariz...',
     },
     {
         image: popularsm5,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Mujer se lanzó a un río para buscar a su pareja...',
     },
     {
         image: popularsm1,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Hombre fue enviado a la cárcel por robarse 4 latas...',
     },
     {
         image: popularsm2,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Mano derecha del Papa Francisco, Pietro Parolin.',
     },
     {
         image: popularsm3,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Denuncian a entrenador de Liga de Atletismo por...',
     },
     {
         image: popularsm4,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Mujer asegura que perdió el cartílago de la nariz...',
     },
     {
         image: popularsm5,
-        category: 'TECHNOLOGY',
+        category: 'TECNOLOGÍA',
         title: 'Mujer se lanzó a un río para buscar a su pareja...',
     },
 ];

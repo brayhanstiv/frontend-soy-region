@@ -10,32 +10,32 @@ const data = [
     {
         image: thumb1,
         title: 'Asesinan a niño defensor del medio ambiente en el Cauca',
-        category: 'TECHNOLOGY',
-        date: 'March 27, 2020'
+        category: 'TECNOLOGÍA',
+        date: 'Marzo 27, 2020'
     },
     {
         image: thumb2,
         title: 'Eliminan "pregunta discriminatoria" homosexuales…',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
+        category: 'TECNOLOGÍA',
+        date: 'Marzo 26, 2020'
     },
     {
         image: thumb3,
         title: 'Hombre fue enviado a la cárcel por robarse 4 latas de atún…',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
+        category: 'TECNOLOGÍA',
+        date: 'Marzo 26, 2020'
     },
     {
         image: thumb4,
         title: 'Muere Adalia Rose, youtuber que padecía la enfermedad de…',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
+        category: 'TECNOLOGÍA',
+        date: 'Marzo 26, 2020'
     },
     {
         image: thumb5,
         title: 'Mujer asegura que perdió el cartílago de la nariz por…',
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020'
+        category: 'TECNOLOGÍA',
+        date: 'Marzo 26, 2020'
     },
 ];
 
