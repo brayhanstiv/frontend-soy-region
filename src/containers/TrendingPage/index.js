@@ -1,96 +1,29 @@
+// Packages
 import React, {Fragment} from 'react';
-import BreadCrumb from "../../components/BreadCrumb";
-import FontAwesome from "../../components/uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
+
+// Components
+import BreadCrumb from "../../components/BreadCrumb";
 import WidgetTab from "../../components/WidgetTab";
 import WidgetTrendingNews from "../../components/WidgetTrendingNews";
 import NewsLetter from "../../components/NewsLetter";
 import FollowUs from "../../components/FollowUs";
 import EntertainmentNews from "../../components/EntertainmentNews";
 
+// Styles 
+import FontAwesome from "../../components/uiStyle/FontAwesome";
+
 // images
 import banner2 from "../../assets/img/bg/sidebar-1.png";
-import trendbig1 from '../../assets/img/trending/trendbig1.jpg';
-import trendbig2 from '../../assets/img/trending/trendbig2.jpg';
 import BannerSection from "../../components/BannerSection";
 
-const trendings = [
-    {
-        image: trendbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: trendbig2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-];
+// Data
+import {trendings} from "../../common/data/trendingPage"
 
 const TrendingPage = () => {
     return (
         <Fragment>
-            <BreadCrumb title="Business"/>
+            <BreadCrumb title="Economía"/>
             <div className="archives padding-top-30">
                 <div className="container">
                     <div className="row">
@@ -98,14 +31,14 @@ const TrendingPage = () => {
                             <div className="row">
                                 <div className="col-12 align-self-center">
                                     <div className="categories_title">
-                                        <h5>Category: <Link to="/">Trending</Link></h5>
+                                        <h5>Categoría: <Link to="/">Economía</Link></h5>
                                     </div>
                                 </div>
                             </div>
                             <div className="entertrainment_carousel">
                                 <div className="entertrainment_item">
                                     <div className="row justify-content-center">
-                                        <EntertainmentNews headerHide={true} entertainments={trendings}/>
+                                        <EntertainmentNews headerHide={false} entertainments={trendings}/>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +78,7 @@ const TrendingPage = () => {
                             <WidgetTab/>
                             <WidgetTrendingNews/>
                             <NewsLetter/>
-                            <FollowUs title="Follow Us"/>
+                            <FollowUs title="Síguenos"/>
                             <div className="banner2 mb30">
                                 <Link to="/">
                                     <img src={banner2} alt="thumb"/>

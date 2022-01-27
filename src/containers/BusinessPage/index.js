@@ -21,7 +21,7 @@ import {businessNews} from "../../common/data/businessPage"
 const BusinessPage = () => {
     return (
         <Fragment>
-            <BreadCrumb title="Business"/>
+            <BreadCrumb title="Negocios"/>
             <div className="archives padding-top-30">
                 <div className="container">
                     <div className="row">
@@ -76,7 +76,7 @@ const BusinessPage = () => {
                             <WidgetTab/>
                             <WidgetTrendingNews/>
                             <NewsLetter/>
-                            <FollowUs title="Follow Us"/>
+                            <FollowUs title="Síguenos"/>
                             <div className="banner2 mb30">
                                 <Link to="/">
                                     <img src={banner2} alt="thumb"/>

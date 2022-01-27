@@ -15,7 +15,7 @@ import banner2 from "../../assets/img/bg/sidebar-1.png";
 const FeaturePage = () => {
     return (
         <Fragment>
-            <BreadCrumb title="Business"/>
+            <BreadCrumb title="Política"/>
             <div className="archives padding-top-30">
                 <div className="container">
                     <div className="row">
@@ -23,7 +23,7 @@ const FeaturePage = () => {
                             <div className="row">
                                 <div className="col-12 align-self-center">
                                     <div className="categories_title">
-                                        <h5>Category: <Link to="/">Features</Link></h5>
+                                        <h5>Categoría: <Link to="/">Política</Link></h5>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const FeaturePage = () => {
                             <WidgetTab/>
                             <WidgetTrendingNews/>
                             <NewsLetter/>
-                            <FollowUs title="Follow Us"/>
+                            <FollowUs title="Síguenos"/>
                             <div className="banner2 mb30">
                                 <Link to="/">
                                     <img src={banner2} alt="thumb"/>
