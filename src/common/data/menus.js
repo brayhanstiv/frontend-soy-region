@@ -75,17 +75,17 @@ const menus = [
         submenu: [
             {
                 id: 41,
-                link: '/about',
+                link: '/404',
                 linkText: 'Bogotá'
             },
             {
                 id: 42,
-                link: '/archive',
+                link: '/404',
                 linkText: 'Medellin'
             },
             {
                 id: 43,
-                link: '/contact',
+                link: '/404',
                 linkText: 'Barranquilla'
             },
             {
@@ -100,7 +100,7 @@ const menus = [
     {
         id: 5,
         linkText: 'Blog',
-        link: '/contact'
+        link: '/about'
     },  
     {
         id: 6,

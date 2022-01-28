@@ -7,16 +7,16 @@ const PostOnePagination = ({className}) => {
             <div className="row">
                 <div className="col-lg-6 align-self-center">
                     <div className={`${className ? className : 'next_prv_single border_left3'}`}>
-                        <p>PREVIOUS NEWS</p>
-                        <h3><Link to="/">Kushner puts himself in middle of white house’s
-                            chaotic coronavirus response.</Link></h3>
+                        <p>NOTICIAS ANTERIORES</p>
+                        <h3><Link to="/">Kushner se pone en medio de la casa blanca
+                        caótica respuesta al coronavirus.</Link></h3>
                     </div>
                 </div>
                 <div className="col-lg-6 align-self-center">
                     <div className={`${className ? className : 'next_prv_single border_left3'}`}>
-                        <p>NEXT NEWS</p>
-                        <h3><Link to="/">C.I.A. Hunts for authentic virus totals in
-                            china, dismissing government tallies</Link></h3>
+                        <p>PRÓXIMAS NOTICIAS</p>
+                        <h3><Link to="/">La C.I.A. busca totales de virus auténticos en                          
+                        China, desestimando los recuentos del gobierno</Link></h3>
                     </div>
                 </div>
             </div>

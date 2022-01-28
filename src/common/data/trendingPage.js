@@ -14,7 +14,7 @@ const trendings = [
         image: trendbig2,
         category: 'TECNOLOGÍA',
         date: 'Marzo 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
+        title: 'Jhonier Leal acepta que asesinó a su mamá y a su hermano Mauricio Leal',
         body: 'Hoy martes, 18 de enero de 2022, Jhonier Leal aceptó los cargos que le imputó la Fiscalía por el homicidio de su hermano Mauricio Leal y su…'
     },
     {
@@ -28,7 +28,7 @@ const trendings = [
         image: trendbig2,
         category: 'TECNOLOGÍA',
         date: 'Marzo 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
+        title: 'Jhonier Leal acepta que asesinó a su mamá y a su hermano Mauricio Leal',
         body: 'Hoy martes, 18 de enero de 2022, Jhonier Leal aceptó los cargos que le imputó la Fiscalía por el homicidio de su hermano Mauricio Leal y su…'
     },
     {
@@ -42,7 +42,7 @@ const trendings = [
         image: trendbig2,
         category: 'TECNOLOGÍA',
         date: 'Marzo 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
+        title: 'Jhonier Leal acepta que asesinó a su mamá y a su hermano Mauricio Leal',
         body: 'Hoy martes, 18 de enero de 2022, Jhonier Leal aceptó los cargos que le imputó la Fiscalía por el homicidio de su hermano Mauricio Leal y su…'
     },
     {
@@ -56,7 +56,7 @@ const trendings = [
         image: trendbig2,
         category: 'TECNOLOGÍA',
         date: 'Marzo 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
+        title: 'Jhonier Leal acepta que asesinó a su mamá y a su hermano Mauricio Leal',
         body: 'Hoy martes, 18 de enero de 2022, Jhonier Leal aceptó los cargos que le imputó la Fiscalía por el homicidio de su hermano Mauricio Leal y su…'
     },
     {
@@ -70,7 +70,7 @@ const trendings = [
         image: trendbig2,
         category: 'TECNOLOGÍA',
         date: 'Marzo 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
+        title: 'Jhonier Leal acepta que asesinó a su mamá y a su hermano Mauricio Leal',
         body: 'Hoy martes, 18 de enero de 2022, Jhonier Leal aceptó los cargos que le imputó la Fiscalía por el homicidio de su hermano Mauricio Leal y su…'
     },
 ];
