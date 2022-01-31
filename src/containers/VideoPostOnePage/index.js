@@ -42,7 +42,7 @@ const VideoPostOnePage = () => {
                             <div className="row">
                                 <div className="col-6 align-self-center">
                                     <div className="page_category">
-                                        <h4>HEALTH</h4>
+                                        <h4>SALUD</h4>
                                     </div>
                                 </div>
                                 <div className="col-6 text-right">
@@ -56,10 +56,10 @@ const VideoPostOnePage = () => {
                             </div>
                             <div className="space-30"/>
                             <div className="single_post_heading">
-                                <h1>Japan’s virus success has puzzled the world. Is its luck running out?</h1>
+                                <h1>El éxito del virus en Japón ha desconcertado al mundo. ¿Se le está acabando la suerte?</h1>
                                 <div className="space-10"/>
-                                <p>The property, complete with 30-seat screening from room, a 100-seat amphitheater and
-                                    a swimming pond with sandy shower…</p>
+                                <p>La propiedad, que cuenta con una sala de proyección de 30 plazas,
+                                    un anfiteatro de 100 plazas y un estanque de natación con...</p>
                             </div>
                             <div className="space-40"/>
                             <div className="video_img">
@@ -79,8 +79,8 @@ const VideoPostOnePage = () => {
                                         </div>
                                         <Link to="/">Shuvas Chandra</Link>
                                         <ul>
-                                            <li><Link to="/">March 26, 2020</Link></li>
-                                            <li>Updated 1:58 p.m. ET</li>
+                                            <li><Link to="/">Marzo 26, 2020</Link></li>
+                                            <li>Actualizado 1:58 p.m. ET</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -96,117 +96,114 @@ const VideoPostOnePage = () => {
                                 </div>
                             </div>
                             <div className="space-20"/>
-                            <p>Entilators will be taken from certain New York hospitals and redistributed to the
-                                worst-hit parts of the state under an order to be signed by Governor Andrew Cuomo.
+                            <p>Se retirarán los entes de algunos hospitales de Nueva York y se redistribuirán a las zonas
+                                más afectadas del estado, según una orden que firmará el gobernador Andrew Cuomo.
                                 <br/>
-                                <br/>New York saw its highest single-day increase in deaths, up by 562 to 2,935 -
-                                nearly half of all virus-related US deaths recorded yesterday. The White
-                                House may advise those in virus hotspots to wear face coverings in public to
-                                help stem the spread.\<br/><br/>The US now has 245,658 Covid-19 cases.<br/><br/>A
-                                shortage of several hundred ventilators in New York City, the epicentre of the outbreak
-                                in the US, prompted Mr Cuomo to say that he will order the machines be taken from
-                                various parts of the state and give them to harder-hit areas.<br/><br/>Amid a deepening
-                                crisis, top health official <span className="bold"> Dr Anthony Fauci</span> has said
-                                he believes all states should issue stay-at-home
-                                orders.
+                                <br/>En Nueva York se produjo el mayor aumento de muertes en un solo día, con 562 hasta 2.935,
+                                casi la mitad de todas las muertes relacionadas con el virus que se registraron ayer en Estados
+                                Unidos. La Casa Blanca podría aconsejar a los habitantes de los focos del virus que lleven la 
+                                cara cubierta en público para ayudar a frenar la propagación.\<br/><br/>tados Unidos tiene ahora
+                                245.658 casos de Covid-19.<br/><br/>La escasez de varios centenares de respiradores en la ciudad
+                                de Nueva York, el epicentro del brote en EE.UU., hizo que el Sr. Cuomo dijera que iba a ordenar
+                                que se retiraran las máquinas de varias partes del estado para entregarlas a las zonas más afectadas.
+                                <br/><br/>En medio de una crisis cada vez más profunda, el <span className="bold"> Dr. Anthony Fauci,
+                                </span>  alto funcionario de salud, ha dicho que cree que todos los estados deberían emitir órdenes de permanencia..
                                 <br/>
-                                <br/>“I don’t understand why that’s not
-                                happening,” Dr Fauci told CNN on Thursday.
-                                “If you look at what’s going on in this
-                                country, I just don’t understand why we’re
-                                not do ingthat.”
+                                <br/>“No entiendo por qué no se hace", dijo el Dr. Fauci
+                                a la CNN el jueves. "Si miras lo que está pasando en
+                                ste país, simplemente no entiendo por qué no estamos haciendo ingthat.”
                                 <br/>
-                                <br/>“You’ve got to put your foot on the
-                                accelerator to bring that number
-                                down,” he added, referring to
-                                infection and death rates.</p>
+                                <br/>“Hay que pisar el acelerador para
+                                bajar esa cifra", añadió, refiriéndose
+                                a las tasas de infección y muerte.</p>
                             <div className="space-40"/>
                             <div className="points">
                                 <ul>
-                                    <li>Should more of us wear face masks?</li>
-                                    <li>Why some countries wear face masks and others don’t</li>
-                                    <li>Coronavirus: Are homemade face masks safe?</li>
+                                <li>¿Deberíamos llevar más mascarillas?</li>
+                                    <li>Por qué algunos países usan mascarillas y otros no</li>
+                                    <li>Coronavirus: ¿Son seguras las mascarillas caseras?</li>
                                 </ul>
                             </div>
                             <div className="space-40"/>
-                            <p>The comments from Dr Fauci, who heads the National Institute of Allergy and
-                                Infectious Diseases, appeared to contradict those of President Trump, who has
-                                consistently dismissed the notion of a nationwide lockdown.
+                            <p>Los comentarios del Dr. Fauci, que dirige el Instituto Nacional de Alergias
+                                y Enfermedades Infecciosas, parecían contradecir los del presidente Trump,
+                                que ha descartado sistemáticamente la idea de un cierre a nivel nacional.
                                 <br/>
-                                <br/>“It’s awfully tough to say, ‘close it down.’ We have to have a little bit of
-                                flexibility,” Mr Trump said on Wednesday.</p>
+                                <br/>“Es terriblemente difícil decir: 'cierren'.
+                                Tenemos que tener un poco de flexibilidad", dijo Trump el miércoles.</p>
                             <div className="space-40"/>
-                            <h3>What’s the debate over masks?</h3>
+                            <h3>¿Cuál es el debate sobre las máscaras?</h3>
                             <div className="space-20"/>
-                            <p>Both the US Centers for Disease Control (CDC) and the World Health Organization (WHO)
-                                are reassessing their guidance on face masks, as experts race to find ways to fight
-                                the highly contagious virus.
+                            <p>Tanto los Centros para el Control de Enfermedades (CDC) como la Organización
+                            Mundial de la Salud (OMS) están reevaluando sus orientaciones sobre las mascarillas,
+                            mientras los expertos se apresuran a encontrar formas de combatir contra el virus altamente contagioso.
                                 <br/>
-                                <br/>Covid-19 is carried in airborne droplets from people coughing or sneezing,
-                                but there is some dispute over how far people should distance themselves
-                                from each other, and whether masks are useful when used by the public.</p>
+                                <br/>El Covid-19 se transmite en gotitas en el aire procedentes de personas que
+                                tosen o estornudan, pero existe cierta controversia sobre la distancia que deben 
+                                tomar las personas, y si las máscaras son útiles cuando las usa el público.</p>
                             <div className="space-40"/>
                             <div className="row">
                                 <div className="col-md-6">
                                     <img src={smail1} alt="smail1"/>
                                 </div>
                                 <div className="col-md-6">
-                                    <p>The WHO advises that ordinary face masks are only effective if combined with
-                                        careful hand-washing and social-distancing, and so far it does not recommend
-                                        them generally for healthy people.
+                                    <p>La OMS aconseja que las mascarillas ordinarias sólo son eficaces si se 
+                                    combinan con con un lavado de manos cuidadoso y un distanciamiento social,
+                                    y hasta ahora no las recomienda hasta ahora no las recomienda en general para las personas sanas.
                                         <br/>
-                                        <br/>However, More and more health experts now say there are benefits.
-                                        They argue that the public use of masks can primarily help by
-                                        preventing asymptomatic patients - people who have been infected
-                                        with Covid-19 but are not aware, and not displaying any symptoms -
-                                        from unknowingly spreading the virus to others.</p>
+                                        <br/>Sin embargo, cada vez son más los expertos en salud que afirman que
+                                        existen beneficios. Sostienen que el uso público de mascarillas puede ayudar
+                                        principalmente a prevenir a los pacientes asintomáticos - personas que han sido
+                                        infectadas con Covid-19 pero no son conscientes de ello y no muestran ningún síntoma.
+                                        que no sepan que están infectados por el virus.</p>
                                 </div>
                             </div>
                             <div className="space-40"/>
-                            <p>Masks may also help lower the risk of individuals catching the virus through the
-                                droplets from another person’s sneeze or a cough - and people can be taught how put
-                                masks on and take them off correctly, they argue.
+                            <p>Las mascarillas también pueden ayudar a reducir el riesgo de contraer el virus
+                                a través de las de estornudos o tos de otra persona, y se puede enseñar a la 
+                                gente a ponerse y quitarse la mascarilla correctamente. a ponerse y quitarse 
+                                las mascarillas correctamente, afirman.
                                 <br/>
-                                <br/>On Thursday New York mayor Bill de Blasio urged all New Yorkers to cover
-                                their faces when outside and near others, but not to use surgical masks,
-                                which are in short supply.
+                                <br/>El jueves, el alcalde de Nueva York, Bill de Blasio, instó a todos los 
+                                neoyorquinos a cubrirse la cara cuando estén al aire libre y cerca de otras 
+                                personas, pero no a utilizar mascarillas quirúrgicas, que son escasos.
                                 <br/>
-                                <br/>“It could be a scarf. It could be something you create yourself at
-                                home. It could be a bandana,” he said. Governor Cuomo weighed in on
-                                Friday, saying “i think it’s fair to say that the masks couldn’t
-                                hurt unless they gave you a false sense of security.”
+                                <br/>“Puede ser una bufanda. Puede ser algo que crees tú mismo en casa. Puede
+                                ser un pañuelo", dijo. El gobernador Cuomo se pronunció el viernes, diciendo 
+                                "creo que es justo decir que las máscaras no pueden daño a menos que te den una 
+                                falsa sensación de seguridad.”
                                 <br/>
-                                <br/>Meanwhile, residents in Laredo, Texas will now face a $1,000
-                                (£816) fine if they fail to cover their noses and mouths
-                                while outside, after city officials issued an emergency
-                                ordinance to its approximately 250,000 residents this week.
+                                <br/>Mientras tanto, los residentes de Laredo (Texas) se enfrentarán a una multa
+                                de 1.000 dólares (816 libras) si no se cubren la nariz y la boca de la ciudad 
+                                emitieron una ordenanza de emergencia para sus de emergencia a sus aproximadamente
+                                250.000 habitantes.
                             </p>
                             <div className="space-40"/>
-                            <h3>Which states are not in lockdown?</h3>
+                            <h3>¿Qué estados no están bloqueados?</h3>
                             <div className="space-20"/>
-                            <p>Both the US Centers for Disease Control (CDC) and the World Health Organization (WHO)
-                                are reassessing their guidance on face masks, as experts race to find ways to fight
-                                the highly contagious virus.
+                            <p>Tanto los Centros para el Control de Enfermedades (CDC) de EE.UU. como la 
+                            Organización Mundial de la Salud (OMS) están reevaluando sus orientaciones sobre 
+                            las mascarillas, mientras los expertos se apresuran a encontrar formas de combatir
+                            el virus altamente contagioso.
                                 <br/>
-                                <br/>Covid-19 is carried in airborne droplets from people coughing or sneezing,
-                                but there is some dispute over how far people should distance themselves
-                                from each other, and whether masks are useful when used by the public.</p>
+                                <br/>El Covid-19 se transmite en las gotas de aire de las personas que tosen o 
+                                estornudan, pero hay cierta controversia sobre la distancia que deben tomar las
+                                personas entre sí, y sobre la utilidad de las mascarillas cuando las usa el público.</p>
                             <div className="space-40"/>
                             <img src={big1} alt="big1"/>
-                            <p className="img_desc"><span>I just had a baby - now I’m going to the frontline.</span></p>
+                            <p className="img_desc"><span>Acabo de tener un bebé - ahora voy a la primera línea.</span></p>
                             <div className="space-40"/>
-                            <p>Masks may also help lower the risk of individuals catching the virus through the
-                                droplets from another person’s sneeze or a cough - and people can be taught how
-                                put masks on and take them off correctly, they argue.
+                            <p>Las mascarillas también pueden ayudar a reducir el riesgo de que las personas contraigan el 
+                            virus a través de las gotas de los estornudos o la tos de otra persona, y se puede enseñar a 
+                            las personas a ponerse y quitarse las mascarillas correctamente, afirman.
                                 <br/>
-                                <br/>On Thursday New York mayor Bill de Blasio urged all New Yorkers to cover
-                                their faces when outside and near others, but not to use surgical masks,
-                                which are in short supply.
+                                <br/>El jueves, el alcalde de Nueva York, Bill de Blasio, instó a todos los neoyorquinos 
+                                a cubrirse la cara sus rostros cuando estén fuera y cerca de otros, pero que no usen máscaras 
+                                quirúrgicas que son escasos.
                                 <br/>
-                                <br/>Meanwhile, residents in Laredo, Texas will now face a $1,000
-                                (£816) fine if they fail to cover their noses and mouths while
-                                outside, after city officials issued an emergency ordinance to
-                                its approximately 250,000 residents this week.</p>
+                                <br/>Mientras tanto, los residentes de Laredo (Texas) se enfrentarán a una multa de 1.000 dólares
+                                (816 libras) si no se cubren la nariz y la boca mientras están de la ciudad emitieron una ordenanza 
+                                de emergencia para sus de emergencia para sus aproximadamente 250.000 habitantes.</p>
                             <div className="space-40"/>
                             <div className="row">
                                 <div className="col-md-5">
@@ -215,11 +212,10 @@ const VideoPostOnePage = () => {
                                 <div className="col-md-7">
                                     <div className="qhote">
                                         <img src={quote} alt="quote"/>
-                                        <p>I must explain to you how all this mistake idea denouncing
-                                            pleasure and praising pain was born and I will give you a
-                                            complete account of the system, and expound the actual teachings
-                                            of the great explorer of the truth, the master-builder of human
-                                            happiness. .</p>
+                                        <p>Debo explicarles cómo nació toda esta idea errónea que denuncia el 
+                                        placer y alaba el dolor. placer y alabando el dolor nació y os daré una
+                                        completa del sistema, y expondré las verdaderas enseñanzas del gran explorador
+                                        de la verdad, el maestro constructor de la felicidad felicidad humana. .</p>
                                         <div className="author">
                                             <div className="author_img">
                                                 <div className="author_img_wrap">
@@ -228,41 +224,40 @@ const VideoPostOnePage = () => {
                                             </div>
                                             <Link to="/">Shuvas Chandra</Link>
                                             <ul>
-                                                <li>Founder at Seative Digital</li>
+                                            <li>Fundador de Seative Digital</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="space-40"/>
-                            <p>The next day I came back to my team and said, This is what I just heard, we have
-                                to get ready, he said. We knew that it wasn’t going to be long before we were
-                                going to have to deal with it.
+                            <p>Al día siguiente volví con mi equipo y le dije: "Esto es lo que acabo de oír, 
+                                tenemos que prepararnos, dijo. Sabíamos que no iba a pasar mucho tiempo antes
+                                de que fuéramos que nos enfrentáramos a ello.
                                 <br/>
-                                <br/>Mr. Hogan has also leaned on his wife, Yumi Hogan, a Korean immigrant,
-                                who was also at the governor’s convention, which included a dinner at
-                                the Korean ambassador’s home. As the first Korean first lady in American
-                                history, Ms. Hogan has become something of an icon in South Korea. I
-                                just grabbed my wife and said, Look, you speak Korean. You know the
-                                president. You know the first lady. You know the ambassador. Let’s talk
-                                to them in Korean, and tell them we need their help. Companies in South
-                                Korea said would tests.</p>
+                                <br/>El Sr. Hogan también se ha apoyado en su esposa, Yumi Hogan, inmigrante coreana, 
+                                que también estuvo en la convención del gobernador, que incluyó una cena en la casa del
+                                embajador coreano. Como primera primera dama coreana de la historia de Estados Unidos, 
+                                Hogan se ha convertido en una especie de icono en Corea del Sur. Cogí a mi mujer y le 
+                                dije: "Mira, tú hablas coreano. Conoces al presidente. Tú eres la primera dama. Conoces 
+                                al embajador. Vamos a hablar con ellos en coreano, y decirles que necesitamos su ayuda. 
+                                Las empresas en el Sur Corea dijeron que harían pruebas.</p>
                             <div className="space-40"/>
                             <img src={big2} alt="big2"/>
                             <div className="space-40"/>
-                            <p>In global terms the US has the most Covid-19 cases - more than 245,000. And
-                                on Thursday the US authorities said more than 1,000 had died in the past 24
-                                hours - the highest daily toll so far in the world.
+                            <p>En términos globales, Estados Unidos es el país con más casos de Covid-19: más de 245.000. 
+                            Y las autoridades estadounidenses afirmaron que en las últimas 24 horas han muerto más de 1.000 
+                            horas, el mayor número de muertes diarias hasta ahora en el mundo.
                                 <br/>
-                                <br/>Hospitals and morgues in New York are struggling to cope with the
-                                pandemic, and New York Governor Andrew Cuomo has warned that New
-                                York risks running out of ventilators for patients in six days.</p>
+                                <br/>Los hospitales y las morgues de Nueva York se esfuerzan por hacer frente a la pandemia, 
+                                y el gobernador de Nueva York, Andrew Cuomo, ha advertido que Nueva York corre el riesgo de 
+                                quedarse sin ventiladores para los pacientes en seis días.</p>
                             <div className="space-40"/>
                             <div className="tags">
                                 <ul className="inline">
                                     <li className="tag_list"><FontAwesome name="tag"/> tags</li>
-                                    <li><Link to="/">Health</Link></li>
-                                    <li><Link to="/">World</Link></li>
+                                    <li><Link to="/">Salud</Link></li>
+                                    <li><Link to="/">Mundo</Link></li>
                                     <li><Link to="/">Corona</Link></li>
                                 </ul>
                             </div>
@@ -273,14 +268,14 @@ const VideoPostOnePage = () => {
                         </div>
                         <div className="col-md-6 col-lg-4">
                             <WidgetTab/>
-                            <FollowUs title="Follow Us"/>
+                            <FollowUs title="Síguenos"/>
                             <WidgetTrendingNews/>
                             <div className="banner2 mb30">
                                 <Link to="/">
                                     <img src={banner2} alt="thumb"/>
                                 </Link>
                             </div>
-                            <MostShareWidget title="Most Share"/>
+                            <MostShareWidget title="Lo Más Compartido"/>
                             <NewsLetter/>
                         </div>
                     </div>

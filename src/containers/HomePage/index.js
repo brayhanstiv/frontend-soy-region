@@ -19,68 +19,10 @@ import CategoriesWidget from "../../components/CategoriesWidget";
 // images
 import banner1 from '../../assets/img/bg/banner1.png';
 import banner2 from '../../assets/img/bg/sidebar-1.png';
-import business1 from '../../assets/img/business/business1.jpg';
-import business2 from '../../assets/img/business/business2.jpg';
-import business3 from '../../assets/img/business/business3.jpg';
-import enter1 from '../../assets/img/entertrainment/enter1.jpg';
-import enter2 from '../../assets/img/entertrainment/enter2.jpg';
-import enter3 from '../../assets/img/entertrainment/enter3.jpg';
-import enter4 from '../../assets/img/entertrainment/enter4.jpg';
 
-const entertainments = [
-    {
-        image: enter1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-];
+// Data
+import {entertainments, businessNews} from "../../common/data/homePage"
 
-const businessNews = [
-    {
-        image: business1,
-        category: 'uiux.subash',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with…'
-    },
-    {
-        image: business2,
-        category: 'uiux.subash',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with…'
-    },
-    {
-        image: business3,
-        category: 'uiux.subash',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with…'
-    },
-];
 
 const HomePage = () => {
     return (
@@ -94,7 +36,7 @@ const HomePage = () => {
                         <TrendingNews/>
                     </div>
                     <div className="col-md-12 col-lg-4">
-                        <FollowUs title="Follow Us"/>
+                        <FollowUs title="Síguenos"/>
                         <MostView/>
                     </div>
                 </div>
@@ -108,7 +50,7 @@ const HomePage = () => {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="heading">
-                                        <h2 className="widget-title">Entertrainment News</h2>
+                                        <h2 className="widget-title">Noticias De Entretenimiento</h2>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +74,7 @@ const HomePage = () => {
                         <div className="col-lg-4">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <MostShareWidget title="Most share"/>
+                                    <MostShareWidget title="Lo Más Compartido"/>
                                 </div>
                                 <div className="col-lg-12">
                                     <UpcomingMatches/>

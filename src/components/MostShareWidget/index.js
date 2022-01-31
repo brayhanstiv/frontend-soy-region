@@ -8,12 +8,12 @@ import {mostViewSort} from "../../utils/commonFunctions";
 
 const mostView = [
     {
-        category: 'TECHNOLOGY',
+        category: 'Tecnología',
         date: 'March 26, 2020',
         title: 'Nancy zhang a chinese busy woman and dhaka',
     },
     {
-        category: 'TECHNOLOGY',
+        category: 'Tecnología',
         date: 'March 26, 2020',
         title: 'Harbour amid a Slowen down in singer city',
     },
@@ -91,10 +91,10 @@ const MostShareWidget = ({title, dark}) => {
                                     <h2>{item.id}</h2>
                                 </div>
                                 <div className="single_post_text">
-                                    <div className="meta2"><Link to="#">TECHNOLOGY</Link>
-                                        <Link to="#">March 26, 2020</Link>
+                                    <div className="meta2"><Link to="#">TECNOLOGÍA</Link>
+                                        <Link to="#">Marzo 26, 2020</Link>
                                     </div>
-                                    <h4><Link to="/post1">Nancy zhang a chinese busy woman and dhaka</Link></h4>
+                                    <h4><Link to="/post1">Google forma grupo enfocado en la tecnología ‘blockchain’</Link></h4>
                                     <ul className="inline socail_share">
                                         <li><Link to="#"><FontAwesome name="twitter"/>2.2K</Link></li>
                                         <li><Link to="#"><FontAwesome name="facebook-f"/>2.2K</Link></li>

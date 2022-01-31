@@ -12,7 +12,7 @@ const SportsNews = ({dark}) => {
                     <div className="row">
                         <div className="col-12">
                             <div className="heading">
-                                <h2 className="widget-title">Sports News</h2>
+                                <h2 className="widget-title">Noticias deportivas</h2>
                             </div>
                         </div>
                     </div>
@@ -27,17 +27,15 @@ const SportsNews = ({dark}) => {
 												</span>
                                 </div>
                                 <div className="single_post_text">
-                                    <div className="meta3"><Link to="/">TECHNOLOGY</Link>
-                                        <Link to="/">March 26, 2020</Link>
+                                    <div className="meta3"><Link to="/">DEPORTES</Link>
+                                        <Link to="/">Marzo 26, 2020</Link>
                                     </div>
-                                    <h4><Link to="/post1">Copa America: Luis Suarez from
-                                        devastated US</Link></h4>
+                                    <h4><Link to="/post1">Hacer ejercicio podría reducir un 60% el riesgo de tener ansiedad
+                                        </Link></h4>
                                     <div className="space-10"/>
-                                    <p className="post-p">The property, complete with 30-seat
-                                        screening from room, a 100-seat amphitheater and a swimming
-                                        pond with sandy shower…</p>
+                                    <p className="post-p">Realizar ejercicio físico de manera habitual, sobre todo si la actividad es de alta intensidad, podría ayudar a reducir el riesgo de desarrollar …</p>
                                     <div className="space-20"/>
-                                    <Link to="/" className="readmore">Read More</Link>
+                                    <Link to="/" className="readmore">Leer Más</Link>
                                 </div>
                             </div>
                         </div>

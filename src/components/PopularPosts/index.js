@@ -1,70 +1,17 @@
+// Packages
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
 import {mostViewSort} from "../../utils/commonFunctions";
 
-// images
-import popularsm1 from '../../assets/img/popular/popularsm1.jpg';
-import popularsm2 from '../../assets/img/popular/popularsm2.jpg';
-import popularsm3 from '../../assets/img/popular/popularsm3.jpg';
-import popularsm4 from '../../assets/img/popular/popularsm4.jpg';
-import popularsm5 from '../../assets/img/popular/popularsm5.jpg';
+// Data
+import {populerPOsts} from "../../common/data/popularPost"
 
+// Styles
 import './style.scss';
+import FontAwesome from "../uiStyle/FontAwesome";
 
-const populerPOsts = [
-    {
-        image: popularsm1,
-        category: 'TECHNOLOGY',
-        title: 'The property complete with a 30 seat screen room.',
-    },
-    {
-        image: popularsm2,
-        category: 'TECHNOLOGY',
-        title: 'Cheap smartphone sensor could help you old.',
-    },
-    {
-        image: popularsm3,
-        category: 'TECHNOLOGY',
-        title: 'Harbour amid a Slowen the down in singer city',
-    },
-    {
-        image: popularsm4,
-        category: 'TECHNOLOGY',
-        title: 'The secret to moving this from sphinx screening',
-    },
-    {
-        image: popularsm5,
-        category: 'TECHNOLOGY',
-        title: 'Harbour amid a Slowen the down in singer city',
-    },
-    {
-        image: popularsm1,
-        category: 'TECHNOLOGY',
-        title: 'The property complete with a 30 seat screen room.',
-    },
-    {
-        image: popularsm2,
-        category: 'TECHNOLOGY',
-        title: 'Cheap smartphone sensor could help you old.',
-    },
-    {
-        image: popularsm3,
-        category: 'TECHNOLOGY',
-        title: 'Harbour amid a Slowen the down in singer city',
-    },
-    {
-        image: popularsm4,
-        category: 'TECHNOLOGY',
-        title: 'The secret to moving this from sphinx screening',
-    },
-    {
-        image: popularsm5,
-        category: 'TECHNOLOGY',
-        title: 'Harbour amid a Slowen the down in singer city',
-    },
-];
+
 
 const PopularPosts = () => {
     const [swiper, setSwiper] = useState(null);
@@ -88,7 +35,7 @@ const PopularPosts = () => {
     };
     return (
         <div className="popular_carousel_area mb30 md-mt-30">
-            <h2 className="widget-title">Popular Posts</h2>
+            <h2 className="widget-title">Publicaciones Populares</h2>
             <div className="popular_carousel pt-15 multipleRowCarousel nav_style1">
                 {/*CAROUSEL START*/}
                 <Swiper getSwiper={setSwiper} {...params}>

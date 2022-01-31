@@ -52,23 +52,23 @@ class BlogComment extends Component {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <input value={name} name="name" onChange={this.changeHandler} type="text"
-                                               placeholder="Full name"/>
+                                               placeholder="Nombre completo"/>
                                         {this.validator.message('Full Name', name, 'required')}
                                     </div>
                                     <div className="col-md-6">
                                         <input value={email} name="email" onChange={this.changeHandler} type="text"
-                                               placeholder="Email address"/>
+                                               placeholder="Dirección de correo electrónico"/>
                                         {this.validator.message('Email', email, 'required|email')}
                                     </div>
                                     <div className="col-12">
                                     <textarea value={message} onChange={this.changeHandler}
                                               name="message" id="message" cols="30" rows="5"
-                                              placeholder="Tell us about your opinion…"/>
+                                              placeholder="Cuéntanos tu opinión..."/>
                                         {this.validator.message('Message', message, 'required')}
                                     </div>
                                     <div className="col-12">
                                         <button className={this.props.theme === 3 ? 'cbtn4' : 'cbtn2'}
-                                                type="submit">POST OPINION
+                                                type="submit">OPINAR
                                         </button>
                                     </div>
                                 </div>
@@ -79,22 +79,22 @@ class BlogComment extends Component {
                     <div className="comment_list">
                         <div className="row">
                             <div className="col-12 col-lg-10 m-auto">
-                                <h3>Our latest news</h3>
+                                <h3>Nuestras últimas noticias</h3>
                                 <div className="single_comment">
                                     <div className="comment_img">
                                         <img src={author2} alt="author2"/>
                                     </div>
                                     <div className="row">
-                                        <div className="col-sm-6"><Link to="/">QuomodoSoft</Link>
+                                        <div className="col-sm-6"><Link to="/">SoyRegion</Link>
                                         </div>
                                         <div className="col-sm-6">
-                                            <div className="replay text-right"><p>replay</p>
+                                            <div className="replay text-right"><p>Repetir</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="space-5"/>
-                                    <p>We’ve invested every aspect of how we serve our users over the past Pellentesque
-                                        rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
+                                    <p>Hemos invertido en todos los aspectos de la forma en que servimos a nuestros usuarios
+                                    en los últimos Pellentesque rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
                                 </div>
                                 <div className="space-15"/>
                                 {this.props.dark ? <div className="border_white"/> : <div className="border_black"/>}
@@ -104,16 +104,16 @@ class BlogComment extends Component {
                                         <img src={author2} alt="author2"/>
                                     </div>
                                     <div className="row">
-                                        <div className="col-sm-6"><Link to="/">QuomodoSoft</Link>
+                                        <div className="col-sm-6"><Link to="/">SoyRegion</Link>
                                         </div>
                                         <div className="col-sm-6">
-                                            <div className="replay text-right"><p>replay</p>
+                                            <div className="replay text-right"><p>Repetir</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="space-5"/>
-                                    <p>We’ve invested every aspect of how we serve our users over the past Pellentesque
-                                        rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
+                                    <p>Hemos invertido en todos los aspectos de la forma en que servimos a nuestros usuarios 
+                                    en los últimos Pellentesque rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
                                 </div>
                                 <div className="space-15"/>
                                 {this.props.dark ? <div className="border_white"/> : <div className="border_black"/>}
@@ -123,16 +123,16 @@ class BlogComment extends Component {
                                         <img src={author2} alt="author2"/>
                                     </div>
                                     <div className="row">
-                                        <div className="col-sm-6"><Link to="/">QuomodoSoft</Link>
+                                        <div className="col-sm-6"><Link to="/">SoyRegion</Link>
                                         </div>
                                         <div className="col-sm-6">
-                                            <div className="replay text-right"><p>replay</p>
+                                            <div className="replay text-right"><p>Repetir</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="space-5"/>
-                                    <p>We’ve invested every aspect of how we serve our users over the past Pellentesque
-                                        rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
+                                    <p>Hemos invertido en todos los aspectos de la forma en que servimos a nuestros usuarios 
+                                    en los últimos Pellentesque rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
                                 </div>
                                 <div className="space-15"/>
                                 {this.props.dark ? <div className="border_white"/> : <div className="border_black"/>}
@@ -142,19 +142,19 @@ class BlogComment extends Component {
                                         <img src={author2} alt="author2"/>
                                     </div>
                                     <div className="row">
-                                        <div className="col-sm-6"><Link to="/">QuomodoSoft</Link>
+                                        <div className="col-sm-6"><Link to="/">SoyRegion</Link>
                                         </div>
                                         <div className="col-sm-6">
-                                            <div className="replay text-right"><p>replay</p>
+                                            <div className="replay text-right"><p>Repetir</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="space-5"/>
-                                    <p>We’ve invested every aspect of how we serve our users over the past Pellentesque
-                                        rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
+                                    <p>Hemos invertido en todos los aspectos de la forma en que servimos a nuestros usuarios 
+                                    en los últimos Pellentesque rutrum ante in nulla suscipit, vel posuere leo tristique.</p>
                                 </div>
                                 <div className="space-40"/>
-                                <Link to="/" className={this.props.theme === 3 ? 'cbtn4' : 'cbtn2'}>Load More</Link>
+                                <Link to="/" className={this.props.theme === 3 ? 'cbtn4' : 'cbtn2'}>Cargar más</Link>
                             </div>
                         </div>
                     </div>

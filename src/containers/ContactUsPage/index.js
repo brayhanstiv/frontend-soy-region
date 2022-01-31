@@ -58,8 +58,8 @@ class ContactUsPage extends Component {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="title_inner">
-                                        <h6>CONTACT US</h6>
-                                        <h1>let's Contact</h1>
+                                        <h6>CONTÁCTANOS</h6>
+                                        <h1>Contacto</h1>
                                     </div>
                                 </div>
                             </div>
@@ -78,13 +78,13 @@ class ContactUsPage extends Component {
                             <div className="col-lg-4">
                                 <div className="box single_contact_box">
                                     <div className="contact_title">
-                                        <h3>Headquarters</h3>
+                                        <h3>Neiva</h3>
                                     </div>
                                     <div className="contact_details">
                                         <div className="contact_details_icon">
                                             <FontAwesome name="map-marker-alt"/>
                                         </div>
-                                        <p>LOCATION:</p>
+                                        <p>UBICACIÓN:</p>
                                         <h6>44 Canal Center Plaza #200 Alexandria, VA 22314, USA</h6>
                                     </div>
                                 </div>
@@ -92,13 +92,13 @@ class ContactUsPage extends Component {
                             <div className="col-lg-4">
                                 <div className="box single_contact_box">
                                     <div className="contact_title">
-                                        <h3>Headquarters</h3>
+                                        <h3>Neiva</h3>
                                     </div>
                                     <div className="contact_details">
                                         <div className="contact_details_icon">
                                             <img src={black_phone} alt="black_phone"/>
                                         </div>
-                                        <p>LOCATION:</p>
+                                        <p>UBICACIÓN:</p>
                                         <h6>44 Canal Center Plaza #200 Alexandria, VA 22314, USA</h6>
                                     </div>
                                 </div>
@@ -106,13 +106,13 @@ class ContactUsPage extends Component {
                             <div className="col-lg-4">
                                 <div className="box single_contact_box">
                                     <div className="contact_title">
-                                        <h3>Headquarters</h3>
+                                        <h3>Neiva</h3>
                                     </div>
                                     <div className="contact_details">
                                         <div className="contact_details_icon">
                                             <FontAwesome name="envelope"/>
                                         </div>
-                                        <p>LOCATION:</p>
+                                        <p>UBICACIÓN:</p>
                                         <h6>44 Canal Center Plaza #200 Alexandria, VA 22314, USA</h6>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ class ContactUsPage extends Component {
                                 <div className="cotact_form">
                                     <div className="row">
                                         <div className="col-12">
-                                            <h3>Let’s work together! <br/> Fill out the form.</h3>
+                                            <h3>Trabajemos juntos! <br/> Llene el formulario.</h3>
                                         </div>
                                         <div className="col-12">
                                             <form onSubmit={this.submitHandler}>
@@ -150,25 +150,25 @@ class ContactUsPage extends Component {
                                                     <div className="col-lg-6">
                                                         <input name="name" value={name} onChange={this.changeHandler}
                                                                type="text"
-                                                               placeholder="Full Name"/>
+                                                               placeholder="Nombre Completo"/>
                                                         {this.validator.message('Full Name', name, 'required')}
                                                     </div>
                                                     <div className="col-lg-6">
                                                         <input name="subject" value={subject}
                                                                onChange={this.changeHandler} type="text"
-                                                               placeholder="Subject"/>
+                                                               placeholder="Asunto"/>
                                                         {this.validator.message('Subject', subject, 'required')}
                                                     </div>
                                                     <div className="col-lg-6">
                                                         <input name="email" value={email} onChange={this.changeHandler}
                                                                type="email"
-                                                               placeholder="Email Adress"/>
+                                                               placeholder="Dirección de correo electrónico"/>
                                                         {this.validator.message('Email', email, 'required|email')}
                                                     </div>
                                                     <div className="col-lg-6">
                                                         <input name="phone" value={phone} onChange={this.changeHandler}
                                                                type="number"
-                                                               placeholder="Phone Number"/>
+                                                               placeholder="Número de teléfono"/>
                                                         {this.validator.message('Phone', phone, 'required')}
                                                     </div>
                                                     <div className="col-12">
@@ -177,12 +177,12 @@ class ContactUsPage extends Component {
                                                               onChange={this.changeHandler}
                                                               id="message"
                                                               cols="30" rows="5"
-                                                              placeholder="Tell us about your message…"/>
+                                                              placeholder="Háblanos de tu mensaje..."/>
                                                         {this.validator.message('Message', message, 'required')}
                                                     </div>
                                                     <div className="col-12">
                                                         <div className="space-20"/>
-                                                        <button className="cbtn1" type="submit">Sent Messege</button>
+                                                        <button className="cbtn1" type="submit">Enviar Mensaje</button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -191,7 +191,7 @@ class ContactUsPage extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <FollowUs title="Follow Us"/>
+                                <FollowUs title="Síguenos"/>
                                 <NewsLetter/>
                             </div>
                         </div>

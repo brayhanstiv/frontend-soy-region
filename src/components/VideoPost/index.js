@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import video1 from "../../assets/img/video/video1.jpg";
+import video1 from "../../assets/img/video/video1.jpeg";
 import FontAwesome from "../uiStyle/FontAwesome";
 import ModalVideo from 'react-modal-video'
 import PopularPosts from "../PopularPosts";
@@ -14,7 +14,7 @@ const VideoPost = ({className, dark}) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="heading white">
-                            <h2 className="widget-title">Video News</h2>
+                            <h2 className="widget-title">Nuevos Videos</h2>
                         </div>
                     </div>
                 </div>
@@ -33,11 +33,11 @@ const VideoPost = ({className, dark}) => {
                                         name="youtube-play"/></p>
                                 </div>
                                 <div className={`single_post_text padding30 ${dark ? 'dark-2' : 'fourth_bg'}`}>
-                                    <div className="meta3"><Link to="/">TECHNOLOGY</Link>
-                                        <Link to="/">March 26, 2020</Link>
+                                    <div className="meta3"><Link to="/">TECNOLOGÍA</Link>
+                                        <Link to="/">Marzo 26, 2020</Link>
                                     </div>
-                                    <h4><Link to="/post1">Riots Report Shows London Needs To Maintain Police Numbers,
-                                        Says Mayor</Link></h4>
+                                    <h4><Link to="/post1">Concejala de Cartagena fue capturada con un kilo de coca,
+                                        armas y dinero</Link></h4>
                                 </div>
                             </div>
                         </div>

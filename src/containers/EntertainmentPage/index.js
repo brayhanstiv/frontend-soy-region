@@ -10,89 +10,15 @@ import EntertainmentNews from "../../components/EntertainmentNews";
 
 // images
 import banner2 from "../../assets/img/bg/sidebar-1.png";
-import enter1 from '../../assets/img/entertrainment/enter1.jpg';
-import enter2 from '../../assets/img/entertrainment/enter2.jpg';
-import enter3 from '../../assets/img/entertrainment/enter3.jpg';
-import enter4 from '../../assets/img/entertrainment/enter4.jpg';
 import BannerSection from "../../components/BannerSection";
 
-const entertainments = [
-    {
-        image: enter1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-];
+// Data 
+import {entertainments} from "../../common/data/entertainmentPage"
 
 const EntertainmentPage = () => {
     return (
         <Fragment>
-            <BreadCrumb title="Business"/>
+            <BreadCrumb title="Entretenimiento"/>
             <div className="archives padding-top-30">
                 <div className="container">
                     <div className="row">
@@ -100,7 +26,7 @@ const EntertainmentPage = () => {
                             <div className="row">
                                 <div className="col-12 align-self-center">
                                     <div className="categories_title">
-                                        <h5>Category: <Link to="/">Entertainment</Link></h5>
+                                        <h5>Categoría: <Link to="/">Entretenimiento</Link></h5>
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +73,7 @@ const EntertainmentPage = () => {
                             <WidgetTab/>
                             <WidgetTrendingNews/>
                             <NewsLetter/>
-                            <FollowUs title="Follow Us"/>
+                            <FollowUs title="Síguenos"/>
                             <div className="banner2 mb30">
                                 <Link to="/">
                                     <img src={banner2} alt="thumb"/>

@@ -1,72 +1,9 @@
+// Packages
 import React from 'react';
-
-import fnewsImg2 from '../../assets/img/feature/feature2.jpeg';
-import fnewsImg3 from '../../assets/img/feature/feature3.jpeg';
-import fnewsImg4 from '../../assets/img/feature/feature4.jpeg';
 import {Link} from "react-router-dom";
 
-const news = [
-    {
-        image: fnewsImg2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-    {
-        image: fnewsImg4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-    {
-        image: fnewsImg4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-    {
-        image: fnewsImg2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-    {
-        image: fnewsImg4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Best garden wing supplies for the horticu ltural'
-    },
-    {
-        image: fnewsImg3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US'
-    },
-];
+// Data
+import {news} from "../../common/data/featureNewsAll"
 
 const FeatureNewsAll = () => {
     return (

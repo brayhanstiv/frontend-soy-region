@@ -1,84 +1,18 @@
+// Packages
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from 'react-id-swiper';
 
-// images
-import sports2 from '../../assets/img/sports/sports2.jpg';
-import sports3 from '../../assets/img/sports/sports3.jpg';
-import sports4 from '../../assets/img/sports/sports4.jpg';
-import sports5 from '../../assets/img/sports/sports5.jpg';
-import sports6 from '../../assets/img/sports/sports6.jpg';
-import blog_small1 from '../../assets/img/blog/blog_small1.jpg';
-import blog_small2 from '../../assets/img/blog/blog_small2.jpg';
-import blog_small3 from '../../assets/img/blog/blog_small3.jpg';
-import blog_small4 from '../../assets/img/blog/blog_small4.jpg';
-import blog_small5 from '../../assets/img/blog/blog_small5.jpg';
+// Styles
+import FontAwesome from "../uiStyle/FontAwesome";
 
+// Utils
 import {mostViewSort} from "../../utils/commonFunctions";
 
-const mostView = [
-    {
-        image: sports2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
-    },
-    {
-        image: sports3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'The billionaire Philan thropist read to learn',
-    },
-    {
-        image: sports4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Cheap smartphone sensor could help you',
-    },
-    {
-        image: sports5,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Ratiffe to be Director of nation talent Trump',
-    },
-    {
-        image: sports6,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
-    },
-    {
-        image: blog_small1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'The billionaire Philan thropist read to learn',
-    },
-    {
-        image: blog_small2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka',
-    },
-    {
-        image: blog_small3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'The billionaire Philan thropist read to learn',
-    },
-    {
-        image: blog_small4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Cheap smartphone sensor could help you',
-    },
-    {
-        image: blog_small5,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Ratiffe to be Director of nation talent Trump',
-    },
-];
+// Data
+
+import {mostView} from "../../common/data/sportsCarousel"
+
 
 const SportsCarousel = ({dark}) => {
     const [swiper, setSwiper] = useState(null);
