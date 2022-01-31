@@ -9,10 +9,9 @@ import FontAwesome from "../uiStyle/FontAwesome";
 // Utils
 import {mostViewSort} from "../../utils/commonFunctions";
 
+
 // Data
-
 import {mostView} from "../../common/data/sportsCarousel"
-
 
 const SportsCarousel = ({dark}) => {
     const [swiper, setSwiper] = useState(null);
