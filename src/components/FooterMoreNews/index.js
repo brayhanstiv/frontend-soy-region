@@ -1,42 +1,19 @@
+// Packages
 import React from 'react';
 import {Link} from "react-router-dom";
 
+// Images
 import mobile from '../../assets/img/icon/mobile.png';
 import speaker from '../../assets/img/icon/speacker.png';
 import envelope from '../../assets/img/icon/evelope.png';
 
-const news = [
-    {
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka'
-    },
-    {
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka'
-    },
-    {
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka'
-    },
-    {
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka'
-    },
-    {
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy zhang a chinese busy woman and dhaka'
-    },
-];
+// Data
+import {news} from "../../common/data/footerMoreNews"
 
 const FooterMoreNews = () => {
     return (
         <div className="extra_newss border_white_left pl-4">
-            <h3 className="widget-title2">More news</h3>
+            <h3 className="widget-title2">Más noticias</h3>
             {news.map((item, i) => (
                 <div key={i} className="single_extra_news border_white_bottom">
                     <p>{item.category} <span> / {item.date}</span></p>
@@ -48,24 +25,24 @@ const FooterMoreNews = () => {
             <div className="border_white_bottom"/>
             <div className="space-40"/>
             <div className="footer_contact">
-                <h3 className="widget-title2">Newspark news services</h3>
+                <h3 className="widget-title2">Servicios de noticias de Newspark</h3>
                 <div className="single_fcontact">
                     <div className="fcicon">
                         <img src={mobile} alt="mobile"/>
                     </div>
-                    <Link to="/">On your mobile</Link>
+                    <Link to="/">En tu móvil</Link>
                 </div>
                 <div className="single_fcontact">
                     <div className="fcicon">
                         <img src={speaker} alt="speaker"/>
                     </div>
-                    <Link to="/">On smart speakers</Link>
+                    <Link to="/">En los altavoces inteligentes</Link>
                 </div>
                 <div className="single_fcontact">
                     <div className="fcicon">
                         <img src={envelope} alt="evelope"/>
                     </div>
-                    <Link to="/">Contact Newspark news</Link>
+                    <Link to="/">Contactar con Newspark news</Link>
                 </div>
             </div>
         </div>

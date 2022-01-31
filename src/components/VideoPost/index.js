@@ -33,8 +33,8 @@ const VideoPost = ({className, dark}) => {
                                         name="youtube-play"/></p>
                                 </div>
                                 <div className={`single_post_text padding30 ${dark ? 'dark-2' : 'fourth_bg'}`}>
-                                    <div className="meta3"><Link to="/">TECHNOLOGY</Link>
-                                        <Link to="/">March 26, 2020</Link>
+                                    <div className="meta3"><Link to="/">TECNOLOGÍA</Link>
+                                        <Link to="/">Marzo 26, 2020</Link>
                                     </div>
                                     <h4><Link to="/post1">Concejala de Cartagena fue capturada con un kilo de coca,
                                         armas y dinero</Link></h4>

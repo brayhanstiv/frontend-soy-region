@@ -1,34 +1,10 @@
+// Packages
 import React from 'react';
-
-// image
-import video4 from '../../assets/img/bg/video4.jpg';
-import video1 from '../../assets/img/bg/1.png';
-import video2 from '../../assets/img/bg/2.png';
 import {Link} from "react-router-dom";
 
-const blog = [
-    {
-        photo: video4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        description: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        photo: video1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        description: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        photo: video2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        description: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-];
+// Data
+import {blog} from "../../common/data/ourBlogSection"
+
 const OurBlogSection = ({dark}) => {
     return (
         <div className={`${dark ? 'primay_bg' : 'fourth_bg'} padding6030`}>
@@ -36,7 +12,7 @@ const OurBlogSection = ({dark}) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="heading">
-                            <h2 className="widget-title">Our Latest Blog</h2>
+                            <h2 className="widget-title">Nuestro último blog</h2>
                         </div>
                     </div>
                 </div>

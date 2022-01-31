@@ -1,38 +1,20 @@
+// Packages
 import React, {Fragment} from 'react';
-import FontAwesome from "../uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
 
-// images
-import trendbig1 from '../../assets/img/trending/trendbig1.jpg';
-import transm4 from '../../assets/img/trending/transm4.jpg';
-import transm5 from '../../assets/img/trending/transm5.jpg';
-import transm6 from '../../assets/img/trending/transm6.jpg';
+// Styles
+import FontAwesome from "../uiStyle/FontAwesome";
 
-const posts = [
-    {
-        photo: transm4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Nancy Zhang a Chinese busy woman and Dhaka',
-    },
-    {
-        photo: transm5,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'U.S. Response subash says he will label regions by risk of…',
-    },
-    {
-        photo: transm6,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Venezuela elan govt and opposit the property collect',
-    },
-];
+// Images
+import trendbig1 from '../../assets/img/trending/trendbig1.jpg';
+
+// Data
+import {posts} from "../../common/data/widgetTrendingNews"
 
 const WidgetTrendingNews = ({dark}) => {
     return (
         <div className="trending_widget mb30">
-            <h2 className="widget-title">Tending News</h2>
+            <h2 className="widget-title">Noticias en tendencias</h2>
             <div className="single_post post_type3">
                 <div className="post_img">
                     <div className="img_wrap">
@@ -41,13 +23,13 @@ const WidgetTrendingNews = ({dark}) => {
                     <span className="tranding"><FontAwesome name="bolt"/></span>
                 </div>
                 <div className="single_post_text">
-                    <div className="meta3"><Link to="/">TECHNOLOGY</Link>
-                        <Link to="/">March 26, 2020</Link>
+                    <div className="meta3"><Link to="/">TECNOLOGÍA</Link>
+                        <Link to="/">Marzo 26, 2020</Link>
                     </div>
-                    <h4><Link to="/post1">There may be no consoles in the future ea exec says</Link></h4>
+                    <h4><Link to="/post1">Asesinan a niño defensor del medio ambiente en el Cauca</Link></h4>
                     <div className="space-10"/>
-                    <p className="post-p">The property, complete with 30-seat screening from room, a 100-seat
-                        amphitheater and a swimming pond with sandy shower…</p>
+                    <p className="post-p">En Colombia los asesinatos de líderes sociales y de ambientalistas 
+                    que trabaja en zonas de conflicto armado son hechos reprochables que atentan…</p>
                 </div>
             </div>
 

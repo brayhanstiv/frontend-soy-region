@@ -9,87 +9,15 @@ import FollowUs from "../../components/FollowUs";
 
 // images
 import banner2 from "../../assets/img/bg/sidebar-1.png";
-import sports41 from '../../assets/img/sports/sports41.jpg';
-import sportsbig1 from '../../assets/img/sports/sportsbig1.jpg';
 import BannerSection from "../../components/BannerSection";
 
-const sports = [
-    {
-        image: sports41,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sportsbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sports41,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sportsbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sports41,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sportsbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sports41,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sportsbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sports41,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: sportsbig1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'Copa America: Luis Suarez from devastated US',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-];
+// Data 
+import {sports} from "../../common/data/sportsPage"
 
 const SportsPage = () => {
     return (
         <Fragment>
-            <BreadCrumb title="Business"/>
+            <BreadCrumb title="Deportes"/>
             <div className="archives padding-top-30">
                 <div className="container">
                     <div className="row">
@@ -97,7 +25,7 @@ const SportsPage = () => {
                             <div className="row">
                                 <div className="col-12 align-self-center">
                                     <div className="categories_title">
-                                        <h5>Category: <Link to="/">Sports</Link></h5>
+                                        <h5>Categoría: <Link to="/">Deportes</Link></h5>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +48,7 @@ const SportsPage = () => {
                                                 <div className="space-10"/>
                                                 <p className="post-p">{item.description}</p>
                                                 <div className="space-20"/>
-                                                <Link to="/" className="readmore">Read More</Link>
+                                                <Link to="/" className="readmore">Leer más</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -162,7 +90,7 @@ const SportsPage = () => {
                             <WidgetTab/>
                             <WidgetTrendingNews/>
                             <NewsLetter/>
-                            <FollowUs title="Follow Us"/>
+                            <FollowUs title="Síguenos"/>
                             <div className="banner2 mb30">
                                 <Link to="/">
                                     <img src={banner2} alt="thumb"/>

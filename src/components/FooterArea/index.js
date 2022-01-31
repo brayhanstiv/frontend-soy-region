@@ -38,8 +38,8 @@ const FooterArea = ({className}) => {
                             <div className="signup_form">
                                 <form onSubmit={submitHandler}>
                                     <input onChange={e => setEmail(e.target.value)} value={email} className="signup"
-                                           type="email" placeholder="Your email address"/>
-                                    <button type="submit" className="cbtn">sign up</button>
+                                           type="email" placeholder="Correo Electrónico"/>
+                                    <button type="submit" className="cbtn">Inscríbete</button>
                                 </form>
                                 <p>We hate spam as much as you do</p>
                             </div>
@@ -58,23 +58,23 @@ const FooterArea = ({className}) => {
                             </div>
                             <div className="col-sm-6 col-lg">
                                 <div className="single_footer_nav">
-                                    <h3 className="widget-title2">Living</h3>
+                                    <h3 className="widget-title2">Viviendo</h3>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <ul>
-                                                <li><Link to="/">Crossword</Link>
+                                                <li><Link to="/">Crucigrama</Link>
                                                 </li>
-                                                <li><Link to="/">Food</Link>
+                                                <li><Link to="/">Comida</Link>
                                                 </li>
-                                                <li><Link to="/">Automobiles</Link>
+                                                <li><Link to="/">Automóviles</Link>
                                                 </li>
-                                                <li><Link to="/">Education</Link>
+                                                <li><Link to="/">Educación</Link>
                                                 </li>
-                                                <li><Link to="/">Health</Link>
+                                                <li><Link to="/">Salud</Link>
                                                 </li>
-                                                <li><Link to="/">Magazine</Link>
+                                                <li><Link to="/">Revista</Link>
                                                 </li>
-                                                <li><Link to="/">Weddings</Link>
+                                                <li><Link to="/">Bodas</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -106,25 +106,25 @@ const FooterArea = ({className}) => {
                         <div className="row">
                             <div className="col-sm-6 col-lg-5">
                                 <div className="single_footer_nav border_white_right">
-                                    <h3 className="widget-title2">Opinion</h3>
+                                    <h3 className="widget-title2">Opinión</h3>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <ul>
-                                                <li><Link to="/">Today’s Opinion</Link>
+                                                <li><Link to="/">Opinión de hoy</Link>
                                                 </li>
-                                                <li><Link to="/">Op-Ed Contributing</Link>
+                                                <li><Link to="/">Colaboración en artículos de opinión</Link>
                                                 </li>
-                                                <li><Link to="/">Contributing Writers</Link>
+                                                <li><Link to="/">Escritores colaboradores</Link>
                                                 </li>
-                                                <li><Link to="/">Business News</Link>
+                                                <li><Link to="/">Noticias empresariales</Link>
                                                 </li>
-                                                <li><Link to="/">Collections</Link>
+                                                <li><Link to="/">Colecciones</Link>
                                                 </li>
-                                                <li><Link to="/">Today’s Paper</Link>
+                                                <li><Link to="/">El diario de hoy</Link>
                                                 </li>
-                                                <li><Link to="/">Saturday Review</Link>
+                                                <li><Link to="/">Revisión de los sábados</Link>
                                                 </li>
-                                                <li><Link to="/">Product Review</Link>
+                                                <li><Link to="/">Revisión de productos</Link>
                                                 </li>
                                             </ul>
                                         </div>

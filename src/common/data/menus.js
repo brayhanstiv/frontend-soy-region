@@ -1,4 +1,5 @@
 const menus = [
+<<<<<<< HEAD
   {
     id: 1,
     linkText: "Inicio",
@@ -105,6 +106,116 @@ const menus = [
     linkText: "Contacto",
     link: "/contact",
   },
+=======
+    {
+        id: 1,
+        linkText: 'Inicio',
+        link: '/'
+    },
+    {
+        id: 2,
+        linkText: 'Categorias',
+        child: true,
+        icon: 'angle-down',
+        submenu: [
+            {
+                id: 21,
+                link: '/business',
+                linkText: 'Negocios'
+            },
+            {
+                id: 22,
+                link: '/entertainment',
+                linkText: 'Entretenimiento'
+            },
+            {
+                id: 23,
+                link: '/features',
+                linkText: 'Política'
+            },
+            {
+                id: 24,
+                link: '/sports',
+                linkText: 'Deportes'
+            },
+            {
+                id: 25,
+                link: '/trending',
+                linkText: 'Economía'
+            },
+        ]
+    },
+    {
+        
+        id: 3,
+        linkText: 'Contenidos',
+        child: true,
+        icon: 'angle-down',
+        submenu: [
+            {
+                id: 31,
+                link: '/',
+                linkText: 'Actualidad'
+            },
+            {
+                id: 32,
+                link: '/dark',
+                linkText: 'Tema del día'
+            },
+            {
+                id: 33,
+                new: true,
+                link: '/home-two',
+                linkText: 'Columnistas'
+            },
+            {
+                id: 34,
+                link: '/home-three',
+                linkText: 'Entrevista'
+            },
+        ]
+    },
+    {
+        id: 4,
+        linkText: 'Regional',
+        child: true,
+        icon: 'angle-down',
+        submenu: [
+            {
+                id: 41,
+                link: '/404',
+                linkText: 'Bogotá'
+            },
+            {
+                id: 42,
+                link: '/404',
+                linkText: 'Medellin'
+            },
+            {
+                id: 43,
+                link: '/404',
+                linkText: 'Barranquilla'
+            },
+            {
+                id: 44,
+                link: '/404',
+                linkText: 'Huila'
+            },
+        ]
+    },
+  
+   
+    {
+        id: 5,
+        linkText: 'Blog',
+        link: '/about'
+    },  
+    {
+        id: 6,
+        linkText: 'Contacto',
+        link: '/contact'
+    },
+>>>>>>> 17efea2e57d84b7a8e3f2bec40783d53ebc81b32
 ];
 const menusDark = [
   {

@@ -1,111 +1,29 @@
+// Packages
 import React, {Fragment, useState} from 'react';
-import BreadCrumb from "../../components/BreadCrumb";
-import FontAwesome from "../../components/uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
+import {Fade, Nav, NavItem, TabContent, TabPane} from "reactstrap";
+
+// Components
+import BreadCrumb from "../../components/BreadCrumb";
 import WidgetTab from "../../components/WidgetTab";
 import WidgetTrendingNews from "../../components/WidgetTrendingNews";
 import NewsLetter from "../../components/NewsLetter";
 import EntertainmentNews from "../../components/EntertainmentNews";
-import {Fade, Nav, NavItem, TabContent, TabPane} from "reactstrap";
 import MostShareWidget from "../../components/MostShareWidget";
 import BannerSection from "../../components/BannerSection";
 import classnames from 'classnames';
 
+// Styles
+import FontAwesome from "../../components/uiStyle/FontAwesome";
+
 // images
 import banner2 from "../../assets/img/bg/sidebar-1.png";
-import enter1 from '../../assets/img/entertrainment/enter1.jpg';
-import enter2 from '../../assets/img/entertrainment/enter2.jpg';
-import enter3 from '../../assets/img/entertrainment/enter3.jpg';
-import enter4 from '../../assets/img/entertrainment/enter4.jpg';
 import author1 from '../../assets/img/author/author1.png';
 import calendar from '../../assets/img/icon/calendar.png';
 
-const entertainments = [
-    {
-        image: enter1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter1,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter2,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter3,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-    {
-        image: enter4,
-        category: 'TECHNOLOGY',
-        date: 'March 26, 2020',
-        title: 'There may be no consoles in the future ea exec says',
-        body: 'The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…'
-    },
-];
+// Data
+import {entertainments} from "../../common/data/aboutUsPage"
+
 
 const AboutUsPage = () => {
     const [activeTab, setActiveTab] = useState('1');
@@ -115,7 +33,7 @@ const AboutUsPage = () => {
     };
     return (
         <Fragment>
-            <BreadCrumb className="shadow5" title="Archive">
+            <BreadCrumb className="shadow5" title="Blog">
                 <Fragment>
                     <div className="space-50"/>
                     <div className="row">
@@ -126,22 +44,19 @@ const AboutUsPage = () => {
                                         <img src={author1} alt="author1"/>
                                     </div>
                                 </div>
-                                <div className="author_content"><Link to="/">QuomodoSoft</Link>
+                                <div className="author_content"><Link to="/">Günter Wallraff</Link>
                                     <ul className="inline">
-                                        <li>News Writer</li>
-                                        <li>Since: April 25, 2020</li>
+                                        <li>Redactor de noticias</li>
+                                        <li> Desde: 25 de abril de 2020</li>
                                     </ul>
                                 </div>
-                                <p>QuomodoSoft is an investigative reporter for Newspark, based in Bangladesh. He
-                                    started at
-                                    The Times in 1999 covering Mayor Rudolph W. Giuliani and then the Sept. 11,
-                                    2001,
-                                    attacks.</p>
+                                <p>Günter Wallraff es un reportero de investigación para Soy Region,
+                                     con sede en Neiva. Empezó en The Times en 1999 cubriendo al alcalde Rudolph W.
+                                     Giuliani y luego los atentados del 11 de septiembre de 2001.</p>
                                 <br/>
-                                <p>He is a three-time winner of the Pulitzer Prize for explanatory reporting,
-                                    investigative reporting and as part of team for foreign reporting. He
-                                    previously
-                                    worked at The Bangladesh Post and The Hartford Courant.</p>
+                                <p>Ha sido galardonado en tres ocasiones con el Premio Pulitzer de reportaje explicativo,
+                                    de investigación y como parte del equipo de reportaje extranjero. Anteriormente trabajó 
+                                    en The Bangladesh Post y The Hartford Courant.</p>
                             </div>
                         </div>
                     </div>
@@ -163,7 +78,7 @@ const AboutUsPage = () => {
                                                         toggle('1');
                                                     }}
                                                 >
-                                                    Latest news
+                                                    Últimas noticias
                                                 </div>
                                             </NavItem>
                                             <NavItem>
@@ -173,7 +88,7 @@ const AboutUsPage = () => {
                                                         toggle('2');
                                                     }}
                                                 >
-                                                    Popular news
+                                                    Lo Más Visto
                                                 </div>
                                             </NavItem>
                                         </Nav>
@@ -243,7 +158,7 @@ const AboutUsPage = () => {
                                     <img src={banner2} alt="thumb"/>
                                 </Link>
                             </div>
-                            <MostShareWidget title="Most Share"/>
+                            <MostShareWidget title="Lo Más Compartido"/>
                             <NewsLetter/>
                         </div>
                     </div>
