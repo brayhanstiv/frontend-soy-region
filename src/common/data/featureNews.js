@@ -27,6 +27,8 @@ const news = [
         image: fnewsImg3,
         category: 'TECNOLOGÍA',
         date: 'Marzo 26, 2020',
+        category: 'TECHNOLOGY',
+        date: 'March 26, 2020',
         title: 'Jhonier Leal acepta que asesinó a su mamá y a su...'
     },
     {

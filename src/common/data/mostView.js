@@ -20,7 +20,6 @@ const mostView = [
     {
         image: mostsm2,
         category: 'TECNOLOGÍA',
-        date: 'Marzo 26, 2020',
         title: 'Mujer se lanzó a un río para buscar a su pareja...',
     },
     {
